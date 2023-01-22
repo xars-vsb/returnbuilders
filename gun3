@@ -1,0 +1,1113 @@
+local boomy = Instance.new("Tool")
+	boomy.Name = "boomy"
+	boomy.ToolTip = "lightning moment"
+	boomy.Parent = owner.Backpack
+
+	local gun = Instance.new("Model")
+	gun.Name = "gun"
+	gun.WorldPivot = CFrame.new(127.6317367553711, 0.4582672119140625, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	gun.Parent = boomy
+
+	local Part = Instance.new("Part")
+	Part.BottomSurface = Enum.SurfaceType.Smooth
+	Part.TopSurface = Enum.SurfaceType.Smooth
+	Part.Color = Color3.fromRGB(91, 93, 105)
+	Part.Material = Enum.Material.Metal
+	Part.Size = Vector3.new(0.024999618530273438, 0.1249999850988388, 0.125)
+	Part.CFrame = CFrame.new(127.12434387207031, 0.787506103515625, 180.71250915527344)
+	Part.Parent = gun
+
+	local Part1 = Instance.new("Part")
+	Part1.BottomSurface = Enum.SurfaceType.Smooth
+	Part1.TopSurface = Enum.SurfaceType.Smooth
+	Part1.Color = Color3.fromRGB(91, 93, 105)
+	Part1.Material = Enum.Material.Metal
+	Part1.Size = Vector3.new(0.14999985694885254, 0.049999963492155075, 0.30000001192092896)
+	Part1.CFrame = CFrame.new(128.498046875, 0.3249969482421875, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part1.Parent = gun
+
+	local Part2 = Instance.new("Part")
+	Part2.BottomSurface = Enum.SurfaceType.Smooth
+	Part2.TopSurface = Enum.SurfaceType.Smooth
+	Part2.Color = Color3.fromRGB(91, 93, 105)
+	Part2.Material = Enum.Material.Metal
+	Part2.Size = Vector3.new(0.12747429311275482, 0.30396848917007446, 0.149993896484375)
+	Part2.CFrame = CFrame.new(128.51150512695312, 0.2577056884765625, 180.71250915527344, 0.1960700899362564, -0.9805898666381836, 0, -0.9805898666381836, -0.1960700899362564, 0, 0, 0, -1)
+	Part2.Parent = gun
+
+	local Part3 = Instance.new("Part")
+	Part3.BottomSurface = Enum.SurfaceType.Smooth
+	Part3.TopSurface = Enum.SurfaceType.Smooth
+	Part3.Color = Color3.fromRGB(91, 93, 105)
+	Part3.Material = Enum.Material.Metal
+	Part3.Size = Vector3.new(0.12747728824615479, 0.30396732687950134, 0.149993896484375)
+	Part3.CFrame = CFrame.new(128.48651123046875, 0.3826904296875, 180.71250915527344, 0.1961851716041565, -0.9805667996406555, 0, -0.9805667996406555, -0.1961851716041565, 0, 0, 0, -1)
+	Part3.Parent = gun
+
+	local Part4 = Instance.new("Part")
+	Part4.BottomSurface = Enum.SurfaceType.Smooth
+	Part4.TopSurface = Enum.SurfaceType.Smooth
+	Part4.Color = Color3.fromRGB(91, 93, 105)
+	Part4.Material = Enum.Material.Metal
+	Part4.Size = Vector3.new(0.1118047833442688, 0.16567572951316833, 0.149993896484375)
+	Part4.CFrame = CFrame.new(128.5739288330078, 0.16204833984375, 180.71250915527344, -0.4472353160381317, -0.8944162130355835, 0, -0.8944162130355835, 0.4472353160381317, 0, 0, 0, -1)
+	Part4.Parent = gun
+
+	local Part5 = Instance.new("Part")
+	Part5.BottomSurface = Enum.SurfaceType.Smooth
+	Part5.TopSurface = Enum.SurfaceType.Smooth
+	Part5.Color = Color3.fromRGB(91, 93, 105)
+	Part5.Material = Enum.Material.Metal
+	Part5.Size = Vector3.new(0.19038310647010803, 0.19411417841911316, 0.149993896484375)
+	Part5.CFrame = CFrame.new(128.49728393554688, 0.126708984375, 180.71250915527344, -0.9191349744796753, -0.39394238591194153, 0, -0.39394238591194153, 0.9191349744796753, 0, 0, 0, -1)
+	Part5.Parent = gun
+
+	local Part6 = Instance.new("Part")
+	Part6.BottomSurface = Enum.SurfaceType.Smooth
+	Part6.TopSurface = Enum.SurfaceType.Smooth
+	Part6.Color = Color3.fromRGB(91, 93, 105)
+	Part6.Material = Enum.Material.Metal
+	Part6.Size = Vector3.new(0.05000000074505806, 0.3039720058441162, 0.149993896484375)
+	Part6.CFrame = CFrame.new(128.4730224609375, 0.4501495361328125, 180.71250915527344, -0.19719843566417694, 0.9803635478019714, 0, 0.9803635478019714, 0.19719843566417694, 0, 0, 0, -1)
+	Part6.Parent = gun
+
+	local Mesh = Instance.new("SpecialMesh")
+	Mesh.Scale = Vector3.new(0.19653968513011932, 1, 1)
+	Mesh.MeshType = Enum.MeshType.Brick
+	Mesh.Parent = Part6
+
+	local Part7 = Instance.new("Part")
+	Part7.BottomSurface = Enum.SurfaceType.Smooth
+	Part7.TopSurface = Enum.SurfaceType.Smooth
+	Part7.Color = Color3.fromRGB(91, 93, 105)
+	Part7.Material = Enum.Material.Metal
+	Part7.Size = Vector3.new(0.14999985694885254, 0.049999963492155075, 0.3499999940395355)
+	Part7.CFrame = CFrame.new(128.4480438232422, 0.5500030517578125, 180.71250915527344, 0, 1.4901161193847656e-08, -1, 0, 1, 1.4901161193847656e-08, 1, 0, 0)
+	Part7.Parent = gun
+
+	local Part8 = Instance.new("Part")
+	Part8.BottomSurface = Enum.SurfaceType.Smooth
+	Part8.TopSurface = Enum.SurfaceType.Smooth
+	Part8.Color = Color3.fromRGB(91, 93, 105)
+	Part8.Material = Enum.Material.Metal
+	Part8.Size = Vector3.new(0.14999985694885254, 0.049999963492155075, 0.30000001192092896)
+	Part8.CFrame = CFrame.new(128.47303771972656, 0.4499969482421875, 180.71250915527344, 0, 1.4901161193847656e-08, -1, 0, 1, 1.4901161193847656e-08, 1, 0, 0)
+	Part8.Parent = gun
+
+	local Part9 = Instance.new("Part")
+	Part9.BottomSurface = Enum.SurfaceType.Smooth
+	Part9.TopSurface = Enum.SurfaceType.Smooth
+	Part9.Color = Color3.fromRGB(91, 93, 105)
+	Part9.Material = Enum.Material.Metal
+	Part9.Size = Vector3.new(0.08089903742074966, 0.11833041906356812, 0.149993896484375)
+	Part9.CFrame = CFrame.new(128.5770263671875, 0.6152801513671875, 180.71250915527344, 0.44712573289871216, -0.8944711089134216, 0, 0.8944711089134216, 0.44712573289871216, 0, 0, 0, 1)
+	Part9.Parent = gun
+
+	local Part10 = Instance.new("Part")
+	Part10.BottomSurface = Enum.SurfaceType.Smooth
+	Part10.TopSurface = Enum.SurfaceType.Smooth
+	Part10.Color = Color3.fromRGB(91, 93, 105)
+	Part10.Material = Enum.Material.Metal
+	Part10.Size = Vector3.new(0.05000000074505806, 0.22498780488967896, 0.149993896484375)
+	Part10.CFrame = CFrame.new(128.5105438232422, 0.5, 180.71250915527344, -1.4901161193847656e-08, -1, 0, -1, 1.4901161193847656e-08, 0, 0, 0, -1)
+	Part10.Parent = gun
+
+	local Part11 = Instance.new("Part")
+	Part11.BottomSurface = Enum.SurfaceType.Smooth
+	Part11.TopSurface = Enum.SurfaceType.Smooth
+	Part11.Color = Color3.fromRGB(91, 93, 105)
+	Part11.Material = Enum.Material.Metal
+	Part11.Size = Vector3.new(0.11181160807609558, 0.3183385729789734, 0.149993896484375)
+	Part11.CFrame = CFrame.new(128.44041442871094, 0.54620361328125, 180.71250915527344, -0.44734451174736023, 0.8943617343902588, 0, 0.8943617343902588, 0.44734451174736023, 0, 0, 0, -1)
+	Part11.Parent = gun
+
+	local Part12 = Instance.new("Part")
+	Part12.BottomSurface = Enum.SurfaceType.Smooth
+	Part12.TopSurface = Enum.SurfaceType.Smooth
+	Part12.Color = Color3.fromRGB(91, 93, 105)
+	Part12.Material = Enum.Material.Metal
+	Part12.Size = Vector3.new(0.24039919674396515, 0.07723202556371689, 0.149993896484375)
+	Part12.CFrame = CFrame.new(128.2342529296875, 0.63470458984375, 180.71250915527344, -0.618435263633728, 0.7858357429504395, 0, 0.7858357429504395, 0.618435263633728, 0, 0, 0, -1)
+	Part12.Parent = gun
+
+	local Part13 = Instance.new("Part")
+	Part13.BottomSurface = Enum.SurfaceType.Smooth
+	Part13.TopSurface = Enum.SurfaceType.Smooth
+	Part13.Color = Color3.fromRGB(49, 51, 57)
+	Part13.Material = Enum.Material.Metal
+	Part13.Size = Vector3.new(0.10606389492750168, 0.062142036855220795, 0.07499390095472336)
+	Part13.CFrame = CFrame.new(128.2411651611328, 0.57470703125, 180.71250915527344, -0.9062989354133606, 0.42263707518577576, 0, -0.42263707518577576, -0.9062989354133606, 0, 0, 0, 1)
+	Part13.Parent = gun
+
+	local Part14 = Instance.new("Part")
+	Part14.BottomSurface = Enum.SurfaceType.Smooth
+	Part14.TopSurface = Enum.SurfaceType.Smooth
+	Part14.Color = Color3.fromRGB(49, 51, 57)
+	Part14.Material = Enum.Material.Metal
+	Part14.Size = Vector3.new(0.12499985098838806, 0.09999997913837433, 0.19999998807907104)
+	Part14.CFrame = CFrame.new(127.87301635742188, 0.649993896484375, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part14.Parent = gun
+
+	local Part15 = Instance.new("Part")
+	Part15.BottomSurface = Enum.SurfaceType.Smooth
+	Part15.TopSurface = Enum.SurfaceType.Smooth
+	Part15.Color = Color3.fromRGB(49, 51, 57)
+	Part15.Material = Enum.Material.Metal
+	Part15.Size = Vector3.new(0.10606389492750168, 0.062142036855220795, 0.12499389797449112)
+	Part15.CFrame = CFrame.new(127.988525390625, 0.6594696044921875, 180.71250915527344, 0.7070921659469604, -0.7071213722229004, 0, 0.7071213722229004, 0.7070921659469604, 0, 0, 0, 1)
+	Part15.Parent = gun
+
+	local Part16 = Instance.new("Part")
+	Part16.BottomSurface = Enum.SurfaceType.Smooth
+	Part16.TopSurface = Enum.SurfaceType.Smooth
+	Part16.Color = Color3.fromRGB(49, 51, 57)
+	Part16.Material = Enum.Material.Metal
+	Part16.Size = Vector3.new(0.11179785430431366, 0.07361768186092377, 0.12499389797449112)
+	Part16.CFrame = CFrame.new(127.78094482421875, 0.6664581298828125, 180.71250915527344, -0.4471265971660614, 0.8944706916809082, 0, 0.8944706916809082, 0.4471265971660614, 0, 0, 0, -1)
+	Part16.Parent = gun
+
+	local Part17 = Instance.new("Part")
+	Part17.BottomSurface = Enum.SurfaceType.Smooth
+	Part17.TopSurface = Enum.SurfaceType.Smooth
+	Part17.Color = Color3.fromRGB(49, 51, 57)
+	Part17.Material = Enum.Material.Metal
+	Part17.Size = Vector3.new(0.07499963045120239, 0.1499999761581421, 0.125)
+	Part17.CFrame = CFrame.new(127.72439575195312, 0.725006103515625, 180.71250915527344)
+	Part17.Shape = Enum.PartType.Cylinder
+	Part17.Parent = gun
+
+	local lights = Instance.new("Model")
+	lights.Name = "lights"
+	lights.WorldPivot = CFrame.new(127.32369232177734, 0.7375030517578125, 180.71250915527344)
+	lights.Parent = gun
+
+	local lights1 = Instance.new("Part")
+	lights1.Name = "lights"
+	lights1.BottomSurface = Enum.SurfaceType.Smooth
+	lights1.TopSurface = Enum.SurfaceType.Smooth
+	lights1.Color = Color3.fromRGB(118, 72, 209)
+	lights1.Material = Enum.Material.Neon
+	lights1.Size = Vector3.new(0.024999629706144333, 0.09999997913837433, 0.05000000074505806)
+	lights1.CFrame = CFrame.new(126.52435302734375, 0.725006103515625, 180.71250915527344)
+	lights1.Shape = Enum.PartType.Cylinder
+	lights1.Parent = lights
+
+	local ParticleEmitter = Instance.new("ParticleEmitter")
+	ParticleEmitter.Lifetime = NumberRange.new(0.3, 0.3)
+	ParticleEmitter.SpreadAngle = Vector2.new(10, -10)
+	ParticleEmitter.Transparency = NumberSequence.new(0, 1)
+	ParticleEmitter.LightEmission = 1
+	ParticleEmitter.Color = ColorSequence.new(Color3.fromRGB(143, 51, 255))
+	ParticleEmitter.VelocitySpread = 10
+	ParticleEmitter.Speed = NumberRange.new(0, 0)
+	ParticleEmitter.Brightness = 5
+	ParticleEmitter.Size = NumberSequence.new(0.05, 0)
+	ParticleEmitter.Acceleration = Vector3.new(0, 10, 0)
+	ParticleEmitter.ZOffset = 1
+	ParticleEmitter.Rate = 10000
+	ParticleEmitter.Parent = lights1
+
+	local lights2 = Instance.new("Part")
+	lights2.Name = "lights"
+	lights2.BottomSurface = Enum.SurfaceType.Smooth
+	lights2.TopSurface = Enum.SurfaceType.Smooth
+	lights2.Color = Color3.fromRGB(118, 72, 209)
+	lights2.Material = Enum.Material.Neon
+	lights2.Size = Vector3.new(0.09999985247850418, 0.049999967217445374, 0.3999999761581421)
+	lights2.CFrame = CFrame.new(127.94801330566406, 0.774993896484375, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	lights2.Parent = lights
+
+	local lights3 = Instance.new("Part")
+	lights3.Name = "lights"
+	lights3.BottomSurface = Enum.SurfaceType.Smooth
+	lights3.TopSurface = Enum.SurfaceType.Smooth
+	lights3.Color = Color3.fromRGB(118, 72, 209)
+	lights3.Material = Enum.Material.Neon
+	lights3.Size = Vector3.new(0.012499630451202393, 0.09999997913837433, 0.125)
+	lights3.CFrame = CFrame.new(127.14311218261719, 0.725006103515625, 180.71250915527344)
+	lights3.Shape = Enum.PartType.Cylinder
+	lights3.Parent = lights
+
+	local ParticleEmitter1 = Instance.new("ParticleEmitter")
+	ParticleEmitter1.Lifetime = NumberRange.new(0.3, 0.3)
+	ParticleEmitter1.SpreadAngle = Vector2.new(180, -180)
+	ParticleEmitter1.Transparency = NumberSequence.new(0, 1)
+	ParticleEmitter1.LightEmission = 1
+	ParticleEmitter1.Color = ColorSequence.new(Color3.fromRGB(143, 51, 255))
+	ParticleEmitter1.VelocitySpread = 180
+	ParticleEmitter1.Speed = NumberRange.new(1, 1)
+	ParticleEmitter1.Brightness = 5
+	ParticleEmitter1.Size = NumberSequence.new(0.05, 0)
+	ParticleEmitter1.ZOffset = 1
+	ParticleEmitter1.Rate = 10000
+	ParticleEmitter1.Parent = lights3
+
+	local lights4 = Instance.new("Part")
+	lights4.Name = "lights"
+	lights4.BottomSurface = Enum.SurfaceType.Smooth
+	lights4.TopSurface = Enum.SurfaceType.Smooth
+	lights4.Color = Color3.fromRGB(118, 72, 209)
+	lights4.Material = Enum.Material.Neon
+	lights4.Size = Vector3.new(0.012499630451202393, 0.09999997913837433, 0.125)
+	lights4.CFrame = CFrame.new(127.68058776855469, 0.725006103515625, 180.71250915527344)
+	lights4.Shape = Enum.PartType.Cylinder
+	lights4.Parent = lights
+
+	local ParticleEmitter2 = Instance.new("ParticleEmitter")
+	ParticleEmitter2.Lifetime = NumberRange.new(0.3, 0.3)
+	ParticleEmitter2.SpreadAngle = Vector2.new(180, -180)
+	ParticleEmitter2.Transparency = NumberSequence.new(0, 1)
+	ParticleEmitter2.LightEmission = 1
+	ParticleEmitter2.Color = ColorSequence.new(Color3.fromRGB(143, 51, 255))
+	ParticleEmitter2.VelocitySpread = 180
+	ParticleEmitter2.Speed = NumberRange.new(1, 1)
+	ParticleEmitter2.Brightness = 5
+	ParticleEmitter2.Size = NumberSequence.new(0.05, 0)
+	ParticleEmitter2.ZOffset = 1
+	ParticleEmitter2.Rate = 10000
+	ParticleEmitter2.Parent = lights4
+
+	local Part18 = Instance.new("Part")
+	Part18.BottomSurface = Enum.SurfaceType.Smooth
+	Part18.TopSurface = Enum.SurfaceType.Smooth
+	Part18.Color = Color3.fromRGB(91, 93, 105)
+	Part18.Material = Enum.Material.Metal
+	Part18.Size = Vector3.new(0.19999960064888, 0.09999997913837433, 0.05000000074505806)
+	Part18.CFrame = CFrame.new(127.0118408203125, 0.725006103515625, 180.71250915527344)
+	Part18.Shape = Enum.PartType.Cylinder
+	Part18.Parent = gun
+
+	local Part19 = Instance.new("Part")
+	Part19.BottomSurface = Enum.SurfaceType.Smooth
+	Part19.TopSurface = Enum.SurfaceType.Smooth
+	Part19.Color = Color3.fromRGB(118, 121, 136)
+	Part19.Material = Enum.Material.Metal
+	Part19.Size = Vector3.new(0.024999849498271942, 0.024999959394335747, 0.875)
+	Part19.CFrame = CFrame.new(127.33549499511719, 0.6374969482421875, 180.75001525878906, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part19.Parent = gun
+
+	local Part20 = Instance.new("Part")
+	Part20.BottomSurface = Enum.SurfaceType.Smooth
+	Part20.TopSurface = Enum.SurfaceType.Smooth
+	Part20.Color = Color3.fromRGB(91, 93, 105)
+	Part20.Material = Enum.Material.Metal
+	Part20.Size = Vector3.new(0.024999618530273438, 0.1249999850988388, 0.07500000298023224)
+	Part20.CFrame = CFrame.new(127.12434387207031, 0.662506103515625, 180.71250915527344)
+	Part20.Parent = gun
+
+	local Part21 = Instance.new("Part")
+	Part21.BottomSurface = Enum.SurfaceType.Smooth
+	Part21.TopSurface = Enum.SurfaceType.Smooth
+	Part21.Color = Color3.fromRGB(49, 51, 57)
+	Part21.Material = Enum.Material.Metal
+	Part21.Size = Vector3.new(0.10599999874830246, 0.06199999898672104, 0.07500000298023224)
+	Part21.CFrame = CFrame.new(127.988525390625, 0.62841796875, 180.71250915527344, -0.7071214318275452, -0.7070921063423157, 0, 0.7070921063423157, -0.7071214318275452, 0, 0, 0, 1)
+	Part21.Parent = gun
+
+	local Part22 = Instance.new("Part")
+	Part22.BottomSurface = Enum.SurfaceType.Smooth
+	Part22.TopSurface = Enum.SurfaceType.Smooth
+	Part22.Color = Color3.fromRGB(49, 51, 57)
+	Part22.Material = Enum.Material.Metal
+	Part22.Size = Vector3.new(0.10599999874830246, 0.06199999898672104, 0.07500000298023224)
+	Part22.CFrame = CFrame.new(128.06524658203125, 0.5746917724609375, 180.71250915527344, -0.9063165187835693, -0.4225994348526001, 0, 0.4225994348526001, -0.9063165187835693, 0, 0, 0, 1)
+	Part22.Parent = gun
+
+	local Part23 = Instance.new("Part")
+	Part23.BottomSurface = Enum.SurfaceType.Smooth
+	Part23.TopSurface = Enum.SurfaceType.Smooth
+	Part23.Color = Color3.fromRGB(49, 51, 57)
+	Part23.Material = Enum.Material.Metal
+	Part23.Size = Vector3.new(0.10599999874830246, 0.06199999898672104, 0.07500000298023224)
+	Part23.CFrame = CFrame.new(128.1531982421875, 0.5551910400390625, 180.71250915527344, -0.9999999403953552, 0.000020772218704223633, 0, -0.000020772218704223633, -0.9999999403953552, 0, 0, 0, 1)
+	Part23.Parent = gun
+
+	local Part24 = Instance.new("Part")
+	Part24.BottomSurface = Enum.SurfaceType.Smooth
+	Part24.TopSurface = Enum.SurfaceType.Smooth
+	Part24.Color = Color3.fromRGB(91, 93, 105)
+	Part24.Material = Enum.Material.Metal
+	Part24.Size = Vector3.new(0.14999985694885254, 0.07499995827674866, 0.22499999403953552)
+	Part24.CFrame = CFrame.new(128.38552856445312, 0.587493896484375, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part24.Parent = gun
+
+	local Part25 = Instance.new("Part")
+	Part25.BottomSurface = Enum.SurfaceType.Smooth
+	Part25.TopSurface = Enum.SurfaceType.Smooth
+	Part25.Color = Color3.fromRGB(49, 51, 57)
+	Part25.Material = Enum.Material.Metal
+	Part25.Size = Vector3.new(0.1653991937637329, 0.12723203003406525, 0.04999389871954918)
+	Part25.CFrame = CFrame.new(128.19140625, 0.648712158203125, 180.71250915527344, -0.618435263633728, 0.7858357429504395, 0, 0.7858357429504395, 0.618435263633728, 0, 0, 0, -1)
+	Part25.Parent = gun
+
+	local Part26 = Instance.new("Part")
+	Part26.BottomSurface = Enum.SurfaceType.Smooth
+	Part26.TopSurface = Enum.SurfaceType.Smooth
+	Part26.Color = Color3.fromRGB(118, 121, 136)
+	Part26.Material = Enum.Material.Metal
+	Part26.Size = Vector3.new(0.024999849498271942, 0.024999959394335747, 0.875)
+	Part26.CFrame = CFrame.new(127.33549499511719, 0.6374969482421875, 180.6750030517578, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part26.Parent = gun
+
+	local Part27 = Instance.new("Part")
+	Part27.BottomSurface = Enum.SurfaceType.Smooth
+	Part27.TopSurface = Enum.SurfaceType.Smooth
+	Part27.Color = Color3.fromRGB(91, 93, 105)
+	Part27.Material = Enum.Material.Metal
+	Part27.Size = Vector3.new(0.14999985694885254, 0.049999963492155075, 0.30000001192092896)
+	Part27.CFrame = CFrame.new(128.52304077148438, 0.1999969482421875, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part27.Parent = gun
+
+	local Part28 = Instance.new("Part")
+	Part28.BottomSurface = Enum.SurfaceType.Smooth
+	Part28.Transparency = 0.8
+	Part28.TopSurface = Enum.SurfaceType.Smooth
+	Part28.Color = Color3.fromRGB(98, 37, 209)
+	Part28.Material = Enum.Material.Glass
+	Part28.Size = Vector3.new(0.19999960064888, 0.09999997913837433, 0.07500000298023224)
+	Part28.CFrame = CFrame.new(127.0118408203125, 0.725006103515625, 180.71250915527344)
+	Part28.Shape = Enum.PartType.Cylinder
+	Part28.Parent = gun
+
+	local Part29 = Instance.new("Part")
+	Part29.BottomSurface = Enum.SurfaceType.Smooth
+	Part29.TopSurface = Enum.SurfaceType.Smooth
+	Part29.Color = Color3.fromRGB(91, 93, 105)
+	Part29.Material = Enum.Material.Metal
+	Part29.Size = Vector3.new(0.14999985694885254, 0.049999963492155075, 0.4000000059604645)
+	Part29.CFrame = CFrame.new(128.44802856445312, 0.649993896484375, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part29.Parent = gun
+
+	local Part30 = Instance.new("Part")
+	Part30.BottomSurface = Enum.SurfaceType.Smooth
+	Part30.TopSurface = Enum.SurfaceType.Smooth
+	Part30.Color = Color3.fromRGB(91, 93, 105)
+	Part30.Material = Enum.Material.Metal
+	Part30.Size = Vector3.new(0.14999985694885254, 0.049999963492155075, 0.6000000238418579)
+	Part30.CFrame = CFrame.new(128.4230194091797, 0.725006103515625, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part30.Parent = gun
+
+	local Part31 = Instance.new("Part")
+	Part31.BottomSurface = Enum.SurfaceType.Smooth
+	Part31.TopSurface = Enum.SurfaceType.Smooth
+	Part31.Color = Color3.fromRGB(91, 93, 105)
+	Part31.Material = Enum.Material.Metal
+	Part31.Size = Vector3.new(0.10606389492750168, 0.04748234152793884, 0.149993896484375)
+	Part31.CFrame = CFrame.new(128.6687469482422, 0.679290771484375, 180.71250915527344, -0.7070921659469604, -0.7071213722229004, 0, -0.7071213722229004, 0.7070921659469604, 0, 0, 0, -1)
+	Part31.Parent = gun
+
+	local Part32 = Instance.new("Part")
+	Part32.BottomSurface = Enum.SurfaceType.Smooth
+	Part32.TopSurface = Enum.SurfaceType.Smooth
+	Part32.Color = Color3.fromRGB(91, 93, 105)
+	Part32.Material = Enum.Material.Metal
+	Part32.Size = Vector3.new(0.14999985694885254, 0.024999961256980896, 0.4749999940395355)
+	Part32.CFrame = CFrame.new(128.43553161621094, 0.6875, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part32.Parent = gun
+
+	local Part33 = Instance.new("Part")
+	Part33.BottomSurface = Enum.SurfaceType.Smooth
+	Part33.TopSurface = Enum.SurfaceType.Smooth
+	Part33.Color = Color3.fromRGB(159, 161, 172)
+	Part33.Material = Enum.Material.Metal
+	Part33.Size = Vector3.new(0.17499986290931702, 0.012499965727329254, 0.625)
+	Part33.CFrame = CFrame.new(128.43551635742188, 0.756256103515625, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part33.Parent = gun
+
+	local Part34 = Instance.new("Part")
+	Part34.BottomSurface = Enum.SurfaceType.Smooth
+	Part34.TopSurface = Enum.SurfaceType.Smooth
+	Part34.Color = Color3.fromRGB(91, 93, 105)
+	Part34.Material = Enum.Material.Metal
+	Part34.Size = Vector3.new(0.05588719993829727, 0.028617624193429947, 0.149993896484375)
+	Part34.CFrame = CFrame.new(128.72271728515625, 0.7313995361328125, 180.71250915527344, 0.4469473659992218, -0.8945602774620056, 0, 0.8945602774620056, 0.4469473659992218, 0, 0, 0, 1)
+	Part34.Parent = gun
+
+	local Part35 = Instance.new("Part")
+	Part35.BottomSurface = Enum.SurfaceType.Smooth
+	Part35.TopSurface = Enum.SurfaceType.Smooth
+	Part35.Color = Color3.fromRGB(49, 51, 57)
+	Part35.Material = Enum.Material.Metal
+	Part35.Size = Vector3.new(0.12499985098838806, 0.04999995976686478, 0.34999996423721313)
+	Part35.CFrame = CFrame.new(127.94801330566406, 0.8249969482421875, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part35.Parent = gun
+
+	local Part36 = Instance.new("Part")
+	Part36.BottomSurface = Enum.SurfaceType.Smooth
+	Part36.TopSurface = Enum.SurfaceType.Smooth
+	Part36.Color = Color3.fromRGB(99, 95, 98)
+	Part36.Material = Enum.Material.Metal
+	Part36.Size = Vector3.new(0.0124998539686203, 0.024999957531690598, 0.32499995827674866)
+	Part36.CFrame = CFrame.new(127.96051025390625, 0.8625030517578125, 180.75625610351562, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part36.Parent = gun
+
+	local Part37 = Instance.new("Part")
+	Part37.BottomSurface = Enum.SurfaceType.Smooth
+	Part37.TopSurface = Enum.SurfaceType.Smooth
+	Part37.Color = Color3.fromRGB(49, 51, 57)
+	Part37.Material = Enum.Material.Metal
+	Part37.Size = Vector3.new(0.12499985098838806, 0.04999997466802597, 0.5)
+	Part37.CFrame = CFrame.new(127.9730224609375, 0.725006103515625, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part37.Parent = gun
+
+	local Part38 = Instance.new("Part")
+	Part38.BottomSurface = Enum.SurfaceType.Smooth
+	Part38.TopSurface = Enum.SurfaceType.Smooth
+	Part38.Color = Color3.fromRGB(49, 51, 57)
+	Part38.Material = Enum.Material.Metal
+	Part38.Size = Vector3.new(0.11179785430431366, 0.03542649745941162, 0.12499389797449112)
+	Part38.CFrame = CFrame.new(127.76385498046875, 0.792083740234375, 180.71250915527344, 0.4471265971660614, 0.8944706916809082, 0, 0.8944706916809082, -0.4471265971660614, 0, 0, 0, -1)
+	Part38.Parent = gun
+
+	local Part39 = Instance.new("Part")
+	Part39.BottomSurface = Enum.SurfaceType.Smooth
+	Part39.TopSurface = Enum.SurfaceType.Smooth
+	Part39.Color = Color3.fromRGB(49, 51, 57)
+	Part39.Material = Enum.Material.Metal
+	Part39.Size = Vector3.new(0.12499985098838806, 0.02499997615814209, 0.2499999701976776)
+	Part39.CFrame = CFrame.new(128.0980224609375, 0.6875, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part39.Parent = gun
+
+	local Part40 = Instance.new("Part")
+	Part40.BottomSurface = Enum.SurfaceType.Smooth
+	Part40.TopSurface = Enum.SurfaceType.Smooth
+	Part40.Color = Color3.fromRGB(91, 93, 105)
+	Part40.Material = Enum.Material.Metal
+	Part40.Size = Vector3.new(0.024999618530273438, 0.1499999761581421, 0.125)
+	Part40.CFrame = CFrame.new(127.12434387207031, 0.725006103515625, 180.71250915527344)
+	Part40.Shape = Enum.PartType.Cylinder
+	Part40.Parent = gun
+
+	local Part41 = Instance.new("Part")
+	Part41.BottomSurface = Enum.SurfaceType.Smooth
+	Part41.TopSurface = Enum.SurfaceType.Smooth
+	Part41.Color = Color3.fromRGB(49, 51, 57)
+	Part41.Material = Enum.Material.Metal
+	Part41.Size = Vector3.new(0.14039918780326843, 0.05223202705383301, 0.12499389797449112)
+	Part41.CFrame = CFrame.new(128.15061950683594, 0.690948486328125, 180.71250915527344, -0.8926012516021729, 0.45084699988365173, 0, 0.45084699988365173, 0.8926012516021729, 0, 0, 0, -1)
+	Part41.Parent = gun
+
+	local Part42 = Instance.new("Part")
+	Part42.BottomSurface = Enum.SurfaceType.Smooth
+	Part42.TopSurface = Enum.SurfaceType.Smooth
+	Part42.Color = Color3.fromRGB(91, 93, 105)
+	Part42.Material = Enum.Material.Metal
+	Part42.Size = Vector3.new(0.024999849498271942, 0.024999959394335747, 0.6499999761581421)
+	Part42.CFrame = CFrame.new(127.447998046875, 0.8125, 180.75001525878906, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part42.Parent = gun
+
+	local Part43 = Instance.new("Part")
+	Part43.BottomSurface = Enum.SurfaceType.Smooth
+	Part43.TopSurface = Enum.SurfaceType.Smooth
+	Part43.Color = Color3.fromRGB(118, 121, 136)
+	Part43.Material = Enum.Material.Metal
+	Part43.Size = Vector3.new(0.09999985247850418, 0.17499996721744537, 0.02499997615814209)
+	Part43.CFrame = CFrame.new(126.91049194335938, 0.712493896484375, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part43.Parent = gun
+
+	local Part44 = Instance.new("Part")
+	Part44.BottomSurface = Enum.SurfaceType.Smooth
+	Part44.TopSurface = Enum.SurfaceType.Smooth
+	Part44.Color = Color3.fromRGB(53, 54, 61)
+	Part44.Material = Enum.Material.Metal
+	Part44.Size = Vector3.new(0.03749960660934448, 0.09999997913837433, 0.125)
+	Part44.CFrame = CFrame.new(126.89309692382812, 0.725006103515625, 180.71250915527344)
+	Part44.Shape = Enum.PartType.Cylinder
+	Part44.Parent = gun
+
+	local Part45 = Instance.new("Part")
+	Part45.BottomSurface = Enum.SurfaceType.Smooth
+	Part45.TopSurface = Enum.SurfaceType.Smooth
+	Part45.Color = Color3.fromRGB(91, 93, 105)
+	Part45.Material = Enum.Material.Metal
+	Part45.Size = Vector3.new(0.024999849498271942, 0.024999959394335747, 0.6499999761581421)
+	Part45.CFrame = CFrame.new(127.447998046875, 0.8125, 180.6750030517578, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part45.Parent = gun
+
+	local Part46 = Instance.new("Part")
+	Part46.BottomSurface = Enum.SurfaceType.Smooth
+	Part46.TopSurface = Enum.SurfaceType.Smooth
+	Part46.Color = Color3.fromRGB(159, 161, 172)
+	Part46.Material = Enum.Material.Metal
+	Part46.Size = Vector3.new(0.17499986290931702, 0.024999961256980896, 0.574999988079071)
+	Part46.CFrame = CFrame.new(128.43551635742188, 0.8874969482421875, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part46.Parent = gun
+
+	local Part47 = Instance.new("Part")
+	Part47.BottomSurface = Enum.SurfaceType.Smooth
+	Part47.TopSurface = Enum.SurfaceType.Smooth
+	Part47.Color = Color3.fromRGB(159, 161, 172)
+	Part47.Material = Enum.Material.Metal
+	Part47.Size = Vector3.new(0.05000000074505806, 0.017873037606477737, 0.17499390244483948)
+	Part47.CFrame = CFrame.new(128.14183044433594, 0.8811798095703125, 180.71250915527344, 0.7070207595825195, 0.7071927189826965, 0, 0.7071927189826965, -0.7070207595825195, 0, 0, 0, -1)
+	Part47.Parent = gun
+
+	local Mesh1 = Instance.new("SpecialMesh")
+	Mesh1.Scale = Vector3.new(0.7070201635360718, 1, 1)
+	Mesh1.MeshType = Enum.MeshType.Brick
+	Mesh1.Parent = Part47
+
+	local Part48 = Instance.new("Part")
+	Part48.BottomSurface = Enum.SurfaceType.Smooth
+	Part48.TopSurface = Enum.SurfaceType.Smooth
+	Part48.Color = Color3.fromRGB(159, 161, 172)
+	Part48.Material = Enum.Material.Metal
+	Part48.Size = Vector3.new(0.04999999701976776, 0.019132789224386215, 0.17499390244483948)
+	Part48.CFrame = CFrame.new(128.72874450683594, 0.8807373046875, 180.71250915527344, 0.7070207595825195, -0.7071927189826965, 0, -0.7071927189826965, -0.7070207595825195, 0, 0, 0, -1)
+	Part48.Parent = gun
+
+	local Mesh2 = Instance.new("SpecialMesh")
+	Mesh2.Scale = Vector3.new(0.7070201635360718, 1, 1)
+	Mesh2.MeshType = Enum.MeshType.Brick
+	Mesh2.Parent = Part48
+
+	local Part49 = Instance.new("Part")
+	Part49.BottomSurface = Enum.SurfaceType.Smooth
+	Part49.TopSurface = Enum.SurfaceType.Smooth
+	Part49.Color = Color3.fromRGB(67, 68, 77)
+	Part49.Material = Enum.Material.Metal
+	Part49.Size = Vector3.new(0.3874996304512024, 0.09999997913837433, 0.07500000298023224)
+	Part49.CFrame = CFrame.new(126.71810913085938, 0.725006103515625, 180.71250915527344)
+	Part49.Shape = Enum.PartType.Cylinder
+	Part49.Parent = gun
+
+	local Part50 = Instance.new("Part")
+	Part50.BottomSurface = Enum.SurfaceType.Smooth
+	Part50.TopSurface = Enum.SurfaceType.Smooth
+	Part50.Color = Color3.fromRGB(159, 161, 172)
+	Part50.Material = Enum.Material.Metal
+	Part50.Size = Vector3.new(0.17499986290931702, 0.012499965727329254, 0.625)
+	Part50.CFrame = CFrame.new(128.43551635742188, 0.868743896484375, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part50.Parent = gun
+
+	local Part51 = Instance.new("Part")
+	Part51.BottomSurface = Enum.SurfaceType.Smooth
+	Part51.TopSurface = Enum.SurfaceType.Smooth
+	Part51.Color = Color3.fromRGB(50, 51, 58)
+	Part51.Material = Enum.Material.Metal
+	Part51.Size = Vector3.new(0.14999985694885254, 0.09999996423721313, 0.612500011920929)
+	Part51.CFrame = CFrame.new(128.42926025390625, 0.8125, 180.71250915527344, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part51.Parent = gun
+
+	local Part52 = Instance.new("Part")
+	Part52.BottomSurface = Enum.SurfaceType.Smooth
+	Part52.TopSurface = Enum.SurfaceType.Smooth
+	Part52.Color = Color3.fromRGB(99, 95, 98)
+	Part52.Material = Enum.Material.Metal
+	Part52.Size = Vector3.new(0.0124998539686203, 0.024999957531690598, 0.32499995827674866)
+	Part52.CFrame = CFrame.new(127.96051025390625, 0.8625030517578125, 180.66876220703125, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	Part52.Parent = gun
+
+	local Handle = Instance.new("Part")
+	Handle.Name = "Handle"
+	Handle.BottomSurface = Enum.SurfaceType.Smooth
+	Handle.Transparency = 1
+	Handle.TopSurface = Enum.SurfaceType.Smooth
+	Handle.Color = Color3.fromRGB(110, 153, 202)
+	Handle.Size = Vector3.new(0.10000000149011612, 0.10000000149011612, 0.10000000149011612)
+	Handle.CFrame = CFrame.new(128.3688201904297, 0.3508453369140625, 180.45802307128906, 0, 1, 0, -1, 0, 0, 0, 0, 1)
+	Handle.Parent = boomy
+
+	local fs = Instance.new("Sound")
+	fs.Name = "fs"
+	fs.Volume = 1
+	fs.SoundId = "rbxassetid://6348944535"
+	fs.Parent = Handle
+
+	local r = Instance.new("Sound")
+	r.Name = "r"
+	r.PlaybackSpeed = 1.1
+	r.Volume = 1
+	r.Pitch = 1.1
+	r.SoundId = "rbxassetid://3356359494"
+	r.Parent = Handle
+
+	local sidef1 = Instance.new("Attachment")
+	sidef1.Name = "sidef1"
+	sidef1.WorldSecondaryAxis = Vector3.new(1, 0, 0)
+	sidef1.WorldOrientation = Vector3.new(-0, -0, -90)
+	sidef1.CFrame = CFrame.new(-0.1739959716796875, -0.9010319709777832, 0.253997802734375)
+	sidef1.WorldPosition = Vector3.new(127.46778869628906, 0.52484130859375, 180.71202087402344)
+	sidef1.WorldCFrame = CFrame.new(127.46778869628906, 0.52484130859375, 180.71202087402344, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+	sidef1.Position = Vector3.new(-0.1739959716796875, -0.9010319709777832, 0.253997802734375)
+	sidef1.WorldAxis = Vector3.new(0, -1, 0)
+	sidef1.Parent = Handle
+
+	local sidef2 = Instance.new("Attachment")
+	sidef2.Name = "sidef2"
+	sidef2.WorldSecondaryAxis = Vector3.new(1, 0, 0)
+	sidef2.WorldOrientation = Vector3.new(-0, -0, -90)
+	sidef2.CFrame = CFrame.new(-0.1739959716796875, -1.4380321502685547, 0.253997802734375)
+	sidef2.WorldPosition = Vector3.new(126.9307861328125, 0.52484130859375, 180.71202087402344)
+	sidef2.WorldCFrame = CFrame.new(126.9307861328125, 0.52484130859375, 180.71202087402344, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+	sidef2.Position = Vector3.new(-0.1739959716796875, -1.4380321502685547, 0.253997802734375)
+	sidef2.WorldAxis = Vector3.new(0, -1, 0)
+	sidef2.Parent = Handle
+
+	local fp = Instance.new("Attachment")
+	fp.Name = "fp"
+	fp.WorldSecondaryAxis = Vector3.new(1, 0, 0)
+	fp.WorldOrientation = Vector3.new(-0, -0, -90)
+	fp.CFrame = CFrame.new(-0.1739959716796875, -2.0570321083068848, 0.253997802734375)
+	fp.WorldPosition = Vector3.new(126.3117904663086, 0.52484130859375, 180.71202087402344)
+	fp.WorldCFrame = CFrame.new(126.3117904663086, 0.52484130859375, 180.71202087402344, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+	fp.Position = Vector3.new(-0.1739959716796875, -2.0570321083068848, 0.253997802734375)
+	fp.WorldAxis = Vector3.new(0, -1, 0)
+	fp.Parent = Handle
+
+	local Part53 = Instance.new("Weld")
+	Part53.Name = "Part"
+	Part53.C0 = CFrame.new(-0.4366607666015625, -1.2444772720336914, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part53.Parent = Handle
+
+	local Part54 = Instance.new("Weld")
+	Part54.Name = "Part"
+	Part54.C0 = CFrame.new(0.025848388671875, 0.1292257308959961, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part54.Parent = Handle
+
+	local Part55 = Instance.new("Weld")
+	Part55.Name = "Part"
+	Part55.C0 = CFrame.new(0.0931396484375, 0.1426839828491211, 0.254486083984375, 0.9805898666381836, 0.1960700899362564, 0, 0.1960700899362564, -0.9805898666381836, 0, 0, 0, -1)
+	Part55.Parent = Handle
+
+	local Part56 = Instance.new("Weld")
+	Part56.Name = "Part"
+	Part56.C0 = CFrame.new(-0.0318450927734375, 0.1176900863647461, 0.254486083984375, 0.9805667996406555, 0.1961851716041565, 0, 0.1961851716041565, -0.9805667996406555, 0, 0, 0, -1)
+	Part56.Parent = Handle
+
+	local Part57 = Instance.new("Weld")
+	Part57.Name = "Part"
+	Part57.C0 = CFrame.new(0.1887969970703125, 0.2051076889038086, 0.254486083984375, 0.8944162130355835, -0.4472353160381317, 0, -0.4472353160381317, -0.8944162130355835, 0, 0, 0, -1)
+	Part57.Parent = Handle
+
+	local Part58 = Instance.new("Weld")
+	Part58.Name = "Part"
+	Part58.C0 = CFrame.new(0.2241363525390625, 0.1284627914428711, 0.254486083984375, 0.39394238591194153, -0.9191349744796753, 0, -0.9191349744796753, -0.39394238591194153, 0, 0, 0, -1)
+	Part58.Parent = Handle
+
+	local Part59 = Instance.new("Weld")
+	Part59.Name = "Part"
+	Part59.C0 = CFrame.new(-0.09930419921875, 0.1042013168334961, 0.254486083984375, -0.9803635478019714, -0.19719843566417694, 0, -0.19719843566417694, 0.9803635478019714, 0, 0, 0, -1)
+	Part59.Parent = Handle
+
+	local Part60 = Instance.new("Weld")
+	Part60.Name = "Part"
+	Part60.C0 = CFrame.new(-0.19915771484375, 0.0792226791381836, 0.254486083984375, 0, -1, -1.4901161193847656e-08, 0, 1.4901161193847656e-08, -1, 1, 0, 0)
+	Part60.Parent = Handle
+
+	local Part61 = Instance.new("Weld")
+	Part61.Name = "Part"
+	Part61.C0 = CFrame.new(-0.099151611328125, 0.1042165756225586, 0.254486083984375, 0, -1, -1.4901161193847656e-08, 0, 1.4901161193847656e-08, -1, 1, 0, 0)
+	Part61.Parent = Handle
+
+	local Part62 = Instance.new("Weld")
+	Part62.Name = "Part"
+	Part62.C0 = CFrame.new(-0.264434814453125, 0.2082052230834961, 0.254486083984375, -0.8944711089134216, -0.44712573289871216, 0, 0.44712573289871216, -0.8944711089134216, 0, 0, 0, 1)
+	Part62.Parent = Handle
+
+	local Part63 = Instance.new("Weld")
+	Part63.Name = "Part"
+	Part63.C0 = CFrame.new(-0.1491546630859375, 0.1417226791381836, 0.254486083984375, 1, -1.4901161193847656e-08, 0, -1.4901161193847656e-08, -1, 0, 0, 0, -1)
+	Part63.Parent = Handle
+
+	local Part64 = Instance.new("Weld")
+	Part64.Name = "Part"
+	Part64.C0 = CFrame.new(-0.1953582763671875, 0.0715932846069336, 0.254486083984375, -0.8943617343902588, -0.44734451174736023, 0, -0.44734451174736023, 0.8943617343902588, 0, 0, 0, -1)
+	Part64.Parent = Handle
+
+	local Part65 = Instance.new("Weld")
+	Part65.Name = "Part"
+	Part65.C0 = CFrame.new(-0.2838592529296875, -0.1345682144165039, 0.254486083984375, -0.7858357429504395, -0.618435263633728, 0, -0.618435263633728, 0.7858357429504395, 0, 0, 0, -1)
+	Part65.Parent = Handle
+
+	local Part66 = Instance.new("Weld")
+	Part66.Name = "Part"
+	Part66.C0 = CFrame.new(-0.2238616943359375, -0.1276559829711914, 0.254486083984375, 0.42263707518577576, 0.9062989354133606, 0, -0.9062989354133606, 0.42263707518577576, 0, 0, 0, 1)
+	Part66.Parent = Handle
+
+	local Part67 = Instance.new("Weld")
+	Part67.Name = "Part"
+	Part67.C0 = CFrame.new(-0.2991485595703125, -0.4958047866821289, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part67.Parent = Handle
+
+	local Part68 = Instance.new("Weld")
+	Part68.Name = "Part"
+	Part68.C0 = CFrame.new(-0.308624267578125, -0.3802957534790039, 0.254486083984375, -0.7071213722229004, -0.7070921659469604, 0, 0.7070921659469604, -0.7071213722229004, 0, 0, 0, 1)
+	Part68.Parent = Handle
+
+	local Part69 = Instance.new("Weld")
+	Part69.Name = "Part"
+	Part69.C0 = CFrame.new(-0.31561279296875, -0.5878763198852539, 0.254486083984375, -0.8944706916809082, -0.4471265971660614, 0, -0.4471265971660614, 0.8944706916809082, 0, 0, 0, -1)
+	Part69.Parent = Handle
+
+	local Part70 = Instance.new("Weld")
+	Part70.Name = "Part"
+	Part70.C0 = CFrame.new(-0.3741607666015625, -0.6444253921508789, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part70.Parent = Handle
+
+	local lights5 = Instance.new("Weld")
+	lights5.Name = "lights"
+	lights5.C0 = CFrame.new(-0.3741607666015625, -1.844468116760254, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	lights5.Parent = Handle
+
+	local lights6 = Instance.new("Weld")
+	lights6.Name = "lights"
+	lights6.C0 = CFrame.new(-0.4241485595703125, -0.4208078384399414, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	lights6.Parent = Handle
+
+	local lights7 = Instance.new("Weld")
+	lights7.Name = "lights"
+	lights7.C0 = CFrame.new(-0.3741607666015625, -1.2257089614868164, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	lights7.Parent = Handle
+
+	local lights8 = Instance.new("Weld")
+	lights8.Name = "lights"
+	lights8.C0 = CFrame.new(-0.3741607666015625, -0.6882333755493164, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	lights8.Parent = Handle
+
+	local Part71 = Instance.new("Weld")
+	Part71.Name = "Part"
+	Part71.C0 = CFrame.new(-0.3741607666015625, -1.356980323791504, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part71.Parent = Handle
+
+	local Part72 = Instance.new("Weld")
+	Part72.Name = "Part"
+	Part72.C0 = CFrame.new(-0.286651611328125, -1.0333261489868164, 0.2919921875, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part72.Parent = Handle
+
+	local Part73 = Instance.new("Weld")
+	Part73.Name = "Part"
+	Part73.C0 = CFrame.new(-0.3116607666015625, -1.2444772720336914, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part73.Parent = Handle
+
+	local Part74 = Instance.new("Weld")
+	Part74.Name = "Part"
+	Part74.C0 = CFrame.new(-0.2775726318359375, -0.3802957534790039, 0.254486083984375, -0.7070921063423157, 0.7071214318275452, 0, -0.7071214318275452, -0.7070921063423157, 0, 0, 0, 1)
+	Part74.Parent = Handle
+
+	local Part75 = Instance.new("Weld")
+	Part75.Name = "Part"
+	Part75.C0 = CFrame.new(-0.223846435546875, -0.3035745620727539, 0.254486083984375, -0.4225994348526001, 0.9063165187835693, 0, -0.9063165187835693, -0.4225994348526001, 0, 0, 0, 1)
+	Part75.Parent = Handle
+
+	local Part76 = Instance.new("Weld")
+	Part76.Name = "Part"
+	Part76.C0 = CFrame.new(-0.204345703125, -0.2156229019165039, 0.254486083984375, 0.000020772218704223633, 0.9999999403953552, 0, -0.9999999403953552, 0.000020772218704223633, 0, 0, 0, 1)
+	Part76.Parent = Handle
+
+	local Part77 = Instance.new("Weld")
+	Part77.Name = "Part"
+	Part77.C0 = CFrame.new(-0.2366485595703125, 0.016707420349121094, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part77.Parent = Handle
+
+	local Part78 = Instance.new("Weld")
+	Part78.Name = "Part"
+	Part78.C0 = CFrame.new(-0.2978668212890625, -0.1774148941040039, 0.254486083984375, -0.7858357429504395, -0.618435263633728, 0, -0.618435263633728, 0.7858357429504395, 0, 0, 0, -1)
+	Part78.Parent = Handle
+
+	local Part79 = Instance.new("Weld")
+	Part79.Name = "Part"
+	Part79.C0 = CFrame.new(-0.286651611328125, -1.0333261489868164, 0.21697998046875, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part79.Parent = Handle
+
+	local Part80 = Instance.new("Weld")
+	Part80.Name = "Part"
+	Part80.C0 = CFrame.new(0.150848388671875, 0.1542196273803711, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part80.Parent = Handle
+
+	local Part81 = Instance.new("Weld")
+	Part81.Name = "Part"
+	Part81.C0 = CFrame.new(-0.3741607666015625, -1.356980323791504, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part81.Parent = Handle
+
+	local Part82 = Instance.new("Weld")
+	Part82.Name = "Part"
+	Part82.C0 = CFrame.new(-0.2991485595703125, 0.0792074203491211, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part82.Parent = Handle
+
+	local Part83 = Instance.new("Weld")
+	Part83.Name = "Part"
+	Part83.C0 = CFrame.new(-0.3741607666015625, 0.054198265075683594, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part83.Parent = Handle
+
+	local Part84 = Instance.new("Weld")
+	Part84.Name = "Part"
+	Part84.C0 = CFrame.new(-0.3284454345703125, 0.2999258041381836, 0.254486083984375, 0.7071213722229004, -0.7070921659469604, 0, -0.7070921659469604, -0.7071213722229004, 0, 0, 0, -1)
+	Part84.Parent = Handle
+
+	local Part85 = Instance.new("Weld")
+	Part85.Name = "Part"
+	Part85.C0 = CFrame.new(-0.3366546630859375, 0.0667104721069336, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part85.Parent = Handle
+
+	local Part86 = Instance.new("Weld")
+	Part86.Name = "Part"
+	Part86.C0 = CFrame.new(-0.4054107666015625, 0.0666952133178711, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part86.Parent = Handle
+
+	local Part87 = Instance.new("Weld")
+	Part87.Name = "Part"
+	Part87.C0 = CFrame.new(-0.38055419921875, 0.3538961410522461, 0.254486083984375, -0.8945602774620056, -0.4469473659992218, 0, 0.4469473659992218, -0.8945602774620056, 0, 0, 0, 1)
+	Part87.Parent = Handle
+
+	local Part88 = Instance.new("Weld")
+	Part88.Name = "Part"
+	Part88.C0 = CFrame.new(-0.474151611328125, -0.4208078384399414, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part88.Parent = Handle
+
+	local Part89 = Instance.new("Weld")
+	Part89.Name = "Part"
+	Part89.C0 = CFrame.new(-0.51165771484375, -0.4083108901977539, 0.2982330322265625, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part89.Parent = Handle
+
+	local Part90 = Instance.new("Weld")
+	Part90.Name = "Part"
+	Part90.C0 = CFrame.new(-0.3741607666015625, -0.3957986831665039, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part90.Parent = Handle
+
+	local Part91 = Instance.new("Weld")
+	Part91.Name = "Part"
+	Part91.C0 = CFrame.new(-0.4412384033203125, -0.6049661636352539, 0.254486083984375, -0.8944706916809082, 0.4471265971660614, 0, 0.4471265971660614, 0.8944706916809082, 0, 0, 0, -1)
+	Part91.Parent = Handle
+
+	local Part92 = Instance.new("Weld")
+	Part92.Name = "Part"
+	Part92.C0 = CFrame.new(-0.3366546630859375, -0.2707986831665039, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part92.Parent = Handle
+
+	local Part93 = Instance.new("Weld")
+	Part93.Name = "Part"
+	Part93.C0 = CFrame.new(-0.3741607666015625, -1.2444772720336914, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part93.Parent = Handle
+
+	local Part94 = Instance.new("Weld")
+	Part94.Name = "Part"
+	Part94.C0 = CFrame.new(-0.3401031494140625, -0.2182016372680664, 0.254486083984375, -0.45084699988365173, -0.8926012516021729, 0, -0.8926012516021729, 0.45084699988365173, 0, 0, 0, -1)
+	Part94.Parent = Handle
+
+	local Part95 = Instance.new("Weld")
+	Part95.Name = "Part"
+	Part95.C0 = CFrame.new(-0.4616546630859375, -0.9208230972290039, 0.2919921875, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part95.Parent = Handle
+
+	local Part96 = Instance.new("Weld")
+	Part96.Name = "Part"
+	Part96.C0 = CFrame.new(-0.3616485595703125, -1.458329200744629, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part96.Parent = Handle
+
+	local Part97 = Instance.new("Weld")
+	Part97.Name = "Part"
+	Part97.C0 = CFrame.new(-0.3741607666015625, -1.475724220275879, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part97.Parent = Handle
+
+	local Part98 = Instance.new("Weld")
+	Part98.Name = "Part"
+	Part98.C0 = CFrame.new(-0.4616546630859375, -0.9208230972290039, 0.21697998046875, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part98.Parent = Handle
+
+	local Part99 = Instance.new("Weld")
+	Part99.Name = "Part"
+	Part99.C0 = CFrame.new(-0.536651611328125, 0.0666952133178711, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part99.Parent = Handle
+
+	local Part100 = Instance.new("Weld")
+	Part100.Name = "Part"
+	Part100.C0 = CFrame.new(-0.53033447265625, -0.2269906997680664, 0.254486083984375, -0.7071927189826965, 0.7070207595825195, 0, 0.7070207595825195, 0.7071927189826965, 0, 0, 0, -1)
+	Part100.Parent = Handle
+
+	local Part101 = Instance.new("Weld")
+	Part101.Name = "Part"
+	Part101.C0 = CFrame.new(-0.5298919677734375, 0.3599233627319336, 0.254486083984375, 0.7071927189826965, 0.7070207595825195, 0, 0.7070207595825195, -0.7071927189826965, 0, 0, 0, -1)
+	Part101.Parent = Handle
+
+	local Part102 = Instance.new("Weld")
+	Part102.Name = "Part"
+	Part102.C0 = CFrame.new(-0.3741607666015625, -1.650712013244629, 0.254486083984375, 0, -1, 0, 1, 0, 0, 0, 0, 1)
+	Part102.Parent = Handle
+
+	local Part103 = Instance.new("Weld")
+	Part103.Name = "Part"
+	Part103.C0 = CFrame.new(-0.5178985595703125, 0.0666952133178711, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part103.Parent = Handle
+
+	local Part104 = Instance.new("Weld")
+	Part104.Name = "Part"
+	Part104.C0 = CFrame.new(-0.4616546630859375, 0.060439109802246094, 0.254486083984375, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part104.Parent = Handle
+
+	local Part105 = Instance.new("Weld")
+	Part105.Name = "Part"
+	Part105.C0 = CFrame.new(-0.51165771484375, -0.4083108901977539, 0.2107391357421875, 0, -1, 0, 0, 0, -1, 1, 0, 0)
+	Part105.Parent = Handle
+
+	Part53.Part1 = Part
+	Part53.Part0 = Handle
+
+	Part54.Part1 = Part1
+	Part54.Part0 = Handle
+
+	Part55.Part1 = Part2
+	Part55.Part0 = Handle
+
+	Part56.Part1 = Part3
+	Part56.Part0 = Handle
+
+	Part57.Part1 = Part4
+	Part57.Part0 = Handle
+
+	Part58.Part1 = Part5
+	Part58.Part0 = Handle
+
+	Part59.Part1 = Part6
+	Part59.Part0 = Handle
+
+	Part60.Part1 = Part7
+	Part60.Part0 = Handle
+
+	Part61.Part1 = Part8
+	Part61.Part0 = Handle
+
+	Part62.Part1 = Part9
+	Part62.Part0 = Handle
+
+	Part63.Part1 = Part10
+	Part63.Part0 = Handle
+
+	Part64.Part1 = Part11
+	Part64.Part0 = Handle
+
+	Part65.Part1 = Part12
+	Part65.Part0 = Handle
+
+	Part66.Part1 = Part13
+	Part66.Part0 = Handle
+
+	Part67.Part1 = Part14
+	Part67.Part0 = Handle
+
+	Part68.Part1 = Part15
+	Part68.Part0 = Handle
+
+	Part69.Part1 = Part16
+	Part69.Part0 = Handle
+
+	Part70.Part1 = Part17
+	Part70.Part0 = Handle
+
+	lights5.Part1 = lights1
+	lights5.Part0 = Handle
+
+	lights6.Part1 = lights2
+	lights6.Part0 = Handle
+
+	lights7.Part1 = lights3
+	lights7.Part0 = Handle
+
+	lights8.Part1 = lights4
+	lights8.Part0 = Handle
+
+	Part71.Part1 = Part18
+	Part71.Part0 = Handle
+
+	Part72.Part1 = Part19
+	Part72.Part0 = Handle
+
+	Part73.Part1 = Part20
+	Part73.Part0 = Handle
+
+	Part74.Part1 = Part21
+	Part74.Part0 = Handle
+
+	Part75.Part1 = Part22
+	Part75.Part0 = Handle
+
+	Part76.Part1 = Part23
+	Part76.Part0 = Handle
+
+	Part77.Part1 = Part24
+	Part77.Part0 = Handle
+
+	Part78.Part1 = Part25
+	Part78.Part0 = Handle
+
+	Part79.Part1 = Part26
+	Part79.Part0 = Handle
+
+	Part80.Part1 = Part27
+	Part80.Part0 = Handle
+
+	Part81.Part1 = Part28
+	Part81.Part0 = Handle
+
+	Part82.Part1 = Part29
+	Part82.Part0 = Handle
+
+	Part83.Part1 = Part30
+	Part83.Part0 = Handle
+
+	Part84.Part1 = Part31
+	Part84.Part0 = Handle
+
+	Part85.Part1 = Part32
+	Part85.Part0 = Handle
+
+	Part86.Part1 = Part33
+	Part86.Part0 = Handle
+
+	Part87.Part1 = Part34
+	Part87.Part0 = Handle
+
+	Part88.Part1 = Part35
+	Part88.Part0 = Handle
+
+	Part89.Part1 = Part36
+	Part89.Part0 = Handle
+
+	Part90.Part1 = Part37
+	Part90.Part0 = Handle
+
+	Part91.Part1 = Part38
+	Part91.Part0 = Handle
+
+	Part92.Part1 = Part39
+	Part92.Part0 = Handle
+
+	Part93.Part1 = Part40
+	Part93.Part0 = Handle
+
+	Part94.Part1 = Part41
+	Part94.Part0 = Handle
+
+	Part95.Part1 = Part42
+	Part95.Part0 = Handle
+
+	Part96.Part1 = Part43
+	Part96.Part0 = Handle
+
+	Part97.Part1 = Part44
+	Part97.Part0 = Handle
+
+	Part98.Part1 = Part45
+	Part98.Part0 = Handle
+
+	Part99.Part1 = Part46
+	Part99.Part0 = Handle
+
+	Part100.Part1 = Part47
+	Part100.Part0 = Handle
+
+	Part101.Part1 = Part48
+	Part101.Part0 = Handle
+
+	Part102.Part1 = Part49
+	Part102.Part0 = Handle
+
+	Part103.Part1 = Part50
+	Part103.Part0 = Handle
+
+	Part104.Part1 = Part51
+	Part104.Part0 = Handle
+
+	Part105.Part1 = Part52
+	Part105.Part0 = Handle
+	return boomy
