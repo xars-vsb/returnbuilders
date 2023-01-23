@@ -1,0 +1,73 @@
+local whoa = Instance.new("Tool")
+whoa.Name = "whoa"
+whoa.ToolTip = "?!?!/1/1/1/?!1/?!@/1"
+
+local Handle = Instance.new("Part")
+Handle.Name = "Handle"
+Handle.BottomSurface = Enum.SurfaceType.Smooth
+Handle.Transparency = 1
+Handle.TopSurface = Enum.SurfaceType.Smooth
+Handle.Color = Color3.fromRGB(110, 153, 202)
+Handle.Size = Vector3.new(0.10000000149011612, 0.10000000149011612, 0.10000000149011612)
+Handle.CFrame = CFrame.new(128.36883544921875, 0.3508453369140625, 180.45802307128906, -0, 1, 0, -1, 0, 0, 0, 0, 1)
+Handle.Parent = whoa
+
+local fs = Instance.new("Sound")
+fs.Name = "fs"
+fs.Volume = 1
+fs.SoundId = "rbxassetid://6348944535"
+fs.Parent = Handle
+
+local r = Instance.new("Sound")
+r.Name = "r"
+r.PlaybackSpeed = 1.1
+r.Volume = 1
+r.Pitch = 1.1
+r.SoundId = "rbxassetid://3356359494"
+r.Parent = Handle
+
+local sidef1 = Instance.new("Attachment")
+sidef1.Name = "sidef1"
+sidef1.WorldSecondaryAxis = Vector3.new(1, 0, 0)
+sidef1.WorldOrientation = Vector3.new(-0, -0, -90)
+sidef1.CFrame = CFrame.new(-0.3819959759712219, -1.2040328979492188, 0.097991943359375)
+sidef1.WorldPosition = Vector3.new(127.16480255126953, 0.7328413128852844, 180.55601501464844)
+sidef1.WorldCFrame = CFrame.new(127.16480255126953, 0.7328413128852844, 180.55601501464844, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+sidef1.Position = Vector3.new(-0.3819959759712219, -1.2040328979492188, 0.097991943359375)
+sidef1.WorldAxis = Vector3.new(0, -1, 0)
+sidef1.Parent = Handle
+
+local fp = Instance.new("Attachment")
+fp.Name = "fp"
+fp.WorldSecondaryAxis = Vector3.new(1, 0, 0)
+fp.WorldOrientation = Vector3.new(-0, -0, -90)
+fp.CFrame = CFrame.new(-0.3819959759712219, -5.268028259277344, 0.097991943359375)
+fp.WorldPosition = Vector3.new(123.1008071899414, 0.7328413128852844, 180.55601501464844)
+fp.WorldCFrame = CFrame.new(123.1008071899414, 0.7328413128852844, 180.55601501464844, 0, 1, -0, -1, 0, 0, 0, 0, 1)
+fp.Position = Vector3.new(-0.3819959759712219, -5.268028259277344, 0.097991943359375)
+fp.WorldAxis = Vector3.new(0, -1, 0)
+fp.Parent = Handle
+
+local Part = Instance.new("Weld")
+Part.Name = "Part"
+Part.C0 = CFrame.new(-0.2861546277999878, -2.01483154296875, 0.090972900390625, 0, -1, -0, -4.371138828673793e-08, 0, -1, 1, 0, -4.371138828673793e-08)
+Part.Parent = Handle
+
+local Part1 = Instance.new("Part")
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.Color = Color3.fromRGB(17, 17, 17)
+Part1.Size = Vector3.new(0.6110000014305115, 1.068000078201294, 6.627999305725098)
+Part1.CFrame = CFrame.new(126.35400390625, 0.6369999647140503, 180.5489959716797, -4.371138828673793e-08, 0, -1, 0, 1, 0, 1, 0, -4.371138828673793e-08)
+Part1.Parent = whoa
+
+local Mesh = Instance.new("SpecialMesh")
+Mesh.Scale = Vector3.new(0.0027772753965109587, 0.001507164677605033, 0.0026818972546607256)
+Mesh.MeshId = "rbxassetid://12159676972"
+Mesh.MeshType = Enum.MeshType.FileMesh
+Mesh.Parent = Part1
+
+Part.Part1 = Part1
+Part.Part0 = Handle
+
+return whoa
