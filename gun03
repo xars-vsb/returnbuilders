@@ -1,0 +1,1287 @@
+local bbc = Instance.new("Tool")
+bbc.Name = "bbc"
+bbc.ToolTip = "😳"
+
+local Handle = Instance.new("Part")
+Handle.Name = "Handle"
+Handle.BottomSurface = Enum.SurfaceType.Smooth
+Handle.Transparency = 1
+Handle.TopSurface = Enum.SurfaceType.Smooth
+Handle.Color = Color3.fromRGB(196, 40, 28)
+Handle.Size = Vector3.new(0.07500000298023224, 0.07500000298023224, 0.07500000298023224)
+Handle.CFrame = CFrame.new(104.25, 0.7315003275871277, 174.2034912109375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Handle.Parent = bbc
+
+local Wedge = Instance.new("Weld")
+Wedge.Name = "Wedge"
+Wedge.C0 = CFrame.new(-0.00000762939453125, -0.3815000355243683, 0.4090118408203125, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+Wedge.Parent = Handle
+
+local Part = Instance.new("Weld")
+Part.Name = "Part"
+Part.C0 = CFrame.new(-0.00000762939453125, -0.34400007128715515, 0.37152099609375)
+Part.Parent = Handle
+
+local Wedge1 = Instance.new("Weld")
+Wedge1.Name = "Wedge"
+Wedge1.C0 = CFrame.new(-0.00000762939453125, -0.3815000355243683, 0.18402099609375, -1, 0, 0, 0, -1, 0, 0, 0, 1)
+Wedge1.Parent = Handle
+
+local Part1 = Instance.new("Weld")
+Part1.Name = "Part"
+Part1.C0 = CFrame.new(-0.00000762939453125, -0.3815000653266907, 0.2965240478515625)
+Part1.Parent = Handle
+
+local Part2 = Instance.new("Weld")
+Part2.Name = "Part"
+Part2.C0 = CFrame.new(-0.0707244873046875, 0.32670462131500244, -0.0659027099609375, 0, 0.7071067094802856, -0.7071067094802856, 0, 0.7071067094802856, 0.7071067094802856, 1, 0, 0)
+Part2.Parent = Handle
+
+local Part3 = Instance.new("Weld")
+Part3.Name = "Part"
+Part3.C0 = CFrame.new(-0.0972442626953125, 0.3532223105430603, -0.0659027099609375, 0, 0.7071065902709961, -0.7071065902709961, 0, 0.7071065902709961, 0.7071065902709961, 1, 0, 0)
+Part3.Parent = Handle
+
+local Part4 = Instance.new("Weld")
+Part4.Name = "Part"
+Part4.C0 = CFrame.new(-0.00000762939453125, -0.23150008916854858, 0.3465118408203125, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part4.Parent = Handle
+
+local Wedge2 = Instance.new("Weld")
+Wedge2.Name = "Wedge"
+Wedge2.C0 = CFrame.new(-0.00000762939453125, -0.23150008916854858, 0.4215087890625, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge2.Parent = Handle
+
+local Part5 = Instance.new("Weld")
+Part5.Name = "Part"
+Part5.C0 = CFrame.new(-0.00000762939453125, 0.19349974393844604, 0.3215179443359375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part5.Parent = Handle
+
+local Wedge3 = Instance.new("Weld")
+Wedge3.Name = "Wedge"
+Wedge3.C0 = CFrame.new(-0.00000762939453125, 0.01849997043609619, 0.3839874267578125, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge3.Parent = Handle
+
+local Part6 = Instance.new("Weld")
+Part6.Name = "Part"
+Part6.C0 = CFrame.new(-0.00000762939453125, 0.030999958515167236, 0.334014892578125, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part6.Parent = Handle
+
+local Wedge4 = Instance.new("Weld")
+Wedge4.Name = "Wedge"
+Wedge4.C0 = CFrame.new(-0.00000762939453125, -0.19400018453598022, 0.12152099609375, -0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, 1)
+Wedge4.Parent = Handle
+
+local Part7 = Instance.new("Weld")
+Part7.Name = "Part"
+Part7.C0 = CFrame.new(-0.00000762939453125, -0.08150005340576172, 0.24652099609375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part7.Parent = Handle
+
+local Part8 = Instance.new("Weld")
+Part8.Name = "Part"
+Part8.C0 = CFrame.new(-0.0000152587890625, 0.16850000619888306, -0.81591796875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part8.Parent = Handle
+
+local Part9 = Instance.new("Weld")
+Part9.Name = "Part"
+Part9.C0 = CFrame.new(-0.00000762939453125, -0.0815001130104065, 0.1715240478515625, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part9.Parent = Handle
+
+local Part10 = Instance.new("Weld")
+Part10.Name = "Part"
+Part10.C0 = CFrame.new(-0.00000762939453125, 0.05599987506866455, 0.12152099609375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part10.Parent = Handle
+
+local Part11 = Instance.new("Weld")
+Part11.Name = "Part"
+Part11.C0 = CFrame.new(-0.00000762939453125, 0.21849983930587769, 0.2340087890625, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part11.Parent = Handle
+
+local Wedge5 = Instance.new("Weld")
+Wedge5.Name = "Wedge"
+Wedge5.C0 = CFrame.new(-0.00000762939453125, 0.28099989891052246, 0.22149658203125, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge5.Parent = Handle
+
+local Wedge6 = Instance.new("Weld")
+Wedge6.Name = "Wedge"
+Wedge6.C0 = CFrame.new(0.03749847412109375, 0.34349989891052246, 0.2340087890625, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge6.Parent = Handle
+
+local Part12 = Instance.new("Weld")
+Part12.Name = "Part"
+Part12.C0 = CFrame.new(-0.00000762939453125, -0.07567548751831055, 0.1042633056640625, 0.9999998211860657, -3.5304849931657063e-15, -1.4623754901384742e-15, 3.821370083296463e-15, 0.9238792657852173, 0.38268354535102844, 0, -0.3826836049556732, 0.9238794445991516)
+Part12.Parent = Handle
+
+local Wedge7 = Instance.new("Weld")
+Wedge7.Name = "Wedge"
+Wedge7.C0 = CFrame.new(-0.03751373291015625, 0.34349989891052246, 0.2340087890625, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge7.Parent = Handle
+
+local Wedge8 = Instance.new("Weld")
+Wedge8.Name = "Wedge"
+Wedge8.C0 = CFrame.new(-0.00000762939453125, 0.30599987506866455, 0.196502685546875, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge8.Parent = Handle
+
+local Wedge9 = Instance.new("Weld")
+Wedge9.Name = "Wedge"
+Wedge9.C0 = CFrame.new(-0.00000762939453125, 0.33099985122680664, 0.1715240478515625, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge9.Parent = Handle
+
+local Wedge10 = Instance.new("Weld")
+Wedge10.Name = "Wedge"
+Wedge10.C0 = CFrame.new(-0.00000762939453125, 0.06849980354309082, 0.009033203125, -0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, 1)
+Wedge10.Parent = Handle
+
+local Part13 = Instance.new("Weld")
+Part13.Name = "Part"
+Part13.C0 = CFrame.new(-0.00000762939453125, 0.41849982738494873, -0.07843017578125, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part13.Parent = Handle
+
+local Part14 = Instance.new("Weld")
+Part14.Name = "Part"
+Part14.C0 = CFrame.new(-0.00000762939453125, 0.38099992275238037, -0.1909332275390625, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part14.Parent = Handle
+
+local Wedge11 = Instance.new("Weld")
+Wedge11.Name = "Wedge"
+Wedge11.C0 = CFrame.new(-0.00002288818359375, 0.4184999465942383, -0.1784820556640625, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Wedge11.Parent = Handle
+
+local Wedge12 = Instance.new("Weld")
+Wedge12.Name = "Wedge"
+Wedge12.C0 = CFrame.new(-0.00002288818359375, 0.46849989891052246, -0.1409759521484375, -0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, -1)
+Wedge12.Parent = Handle
+
+local Part15 = Instance.new("Weld")
+Part15.Name = "Part"
+Part15.C0 = CFrame.new(-0.00000762939453125, 0.43099987506866455, -0.5284576416015625, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part15.Parent = Handle
+
+local Part16 = Instance.new("Weld")
+Part16.Name = "Part"
+Part16.C0 = CFrame.new(-0.00000762939453125, 0.4684997797012329, -0.8909454345703125, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part16.Parent = Handle
+
+local Part17 = Instance.new("Weld")
+Part17.Name = "Part"
+Part17.C0 = CFrame.new(-0.00000762939453125, 0.1309998631477356, -0.3533782958984375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part17.Parent = Handle
+
+local Part18 = Instance.new("Weld")
+Part18.Name = "Part"
+Part18.C0 = CFrame.new(-0.0000152587890625, 0.29349982738494873, -0.6159210205078125, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part18.Parent = Handle
+
+local Part19 = Instance.new("Weld")
+Part19.Name = "Part"
+Part19.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, -0.1909332275390625, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part19.Parent = Handle
+
+local Wedge13 = Instance.new("Weld")
+Wedge13.Name = "Wedge"
+Wedge13.C0 = CFrame.new(-0.00000762939453125, 0.043499648571014404, -0.0659637451171875, -0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, 1)
+Wedge13.Parent = Handle
+
+local Part20 = Instance.new("Weld")
+Part20.Name = "Part"
+Part20.C0 = CFrame.new(-0.00000762939453125, 0.4309996962547302, 0.0464935302734375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part20.Parent = Handle
+
+local Part21 = Instance.new("Weld")
+Part21.Name = "Part"
+Part21.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, 0.0965576171875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part21.Parent = Handle
+
+local Part22 = Instance.new("Weld")
+Part22.Name = "Part"
+Part22.C0 = CFrame.new(-0.00000762939453125, 0.40599972009658813, -0.4284515380859375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part22.Parent = Handle
+
+local Part23 = Instance.new("Weld")
+Part23.Name = "Part"
+Part23.C0 = CFrame.new(-0.0000152587890625, 0.28099972009658813, -0.81591796875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part23.Parent = Handle
+
+local Wedge14 = Instance.new("Weld")
+Wedge14.Name = "Wedge"
+Wedge14.C0 = CFrame.new(-0.00000762939453125, 0.16849946975708008, 0.12152099609375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Wedge14.Parent = Handle
+
+local Wedge15 = Instance.new("Weld")
+Wedge15.Name = "Wedge"
+Wedge15.C0 = CFrame.new(-0.00000762939453125, 0.34349650144577026, 0.12152099609375, 0.9999998211860657, 0, 0, 0, 0, 0.9999998211860657, 0, -1, 0)
+Wedge15.Parent = Handle
+
+local Part24 = Instance.new("Weld")
+Part24.Name = "Part"
+Part24.C0 = CFrame.new(-0.00000762939453125, 0.2684997320175171, -0.50347900390625, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part24.Parent = Handle
+
+local Part25 = Instance.new("Weld")
+Part25.Name = "Part"
+Part25.C0 = CFrame.new(-0.0000152587890625, 0.16849976778030396, -0.50341796875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part25.Parent = Handle
+
+local Part26 = Instance.new("Weld")
+Part26.Name = "Part"
+Part26.C0 = CFrame.new(-0.00000762939453125, 0.38099974393844604, -0.3284454345703125, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part26.Parent = Handle
+
+local Part27 = Instance.new("Weld")
+Part27.Name = "Part"
+Part27.C0 = CFrame.new(-0.00000762939453125, 0.44349950551986694, -0.928558349609375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part27.Parent = Handle
+
+local Part28 = Instance.new("Weld")
+Part28.Name = "Part"
+Part28.C0 = CFrame.new(-0.00000762939453125, 0.28100019693374634, -0.9909515380859375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part28.Parent = Handle
+
+local Part29 = Instance.new("Weld")
+Part29.Name = "Part"
+Part29.C0 = CFrame.new(-0.0000152587890625, 0.14349979162216187, -0.990936279296875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part29.Parent = Handle
+
+local Part30 = Instance.new("Weld")
+Part30.Name = "Part"
+Part30.C0 = CFrame.new(-0.0000152587890625, 0.16849976778030396, -0.903411865234375, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part30.Parent = Handle
+
+local Wedge16 = Instance.new("Weld")
+Wedge16.Name = "Wedge"
+Wedge16.C0 = CFrame.new(-0.00000762939453125, 0.01849961280822754, 0.0590362548828125, -0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, 1)
+Wedge16.Parent = Handle
+
+local Part31 = Instance.new("Weld")
+Part31.Name = "Part"
+Part31.C0 = CFrame.new(-0.00000762939453125, 0.08695036172866821, -0.1391448974609375, 0.9999998211860657, 0, 3.821370083296463e-15, 3.821370083296463e-15, 4.371138118131057e-08, -0.9999998211860657, 0, 1, 4.371138828673793e-08)
+Part31.Parent = Handle
+
+local Part32 = Instance.new("Weld")
+Part32.Name = "Part"
+Part32.C0 = CFrame.new(-0.00000762939453125, 0.019588470458984375, -0.1257476806640625, 0.9999998211860657, -1.462375172501119e-15, 3.5304856284404168e-15, 3.821370083296463e-15, 0.3826834261417389, -0.9238793253898621, 0, 0.9238795042037964, 0.38268348574638367)
+Part32.Parent = Handle
+
+local Part33 = Instance.new("Weld")
+Part33.Name = "Part"
+Part33.C0 = CFrame.new(-0.00000762939453125, -0.037518203258514404, -0.08758544921875, 0.9999998211860657, -2.702116840420628e-15, 2.7021166286623913e-15, 3.821370083296463e-15, 0.7071067094802856, -0.7071065902709961, 0, 0.7071067094802856, 0.7071068286895752)
+Part33.Parent = Handle
+
+local Part34 = Instance.new("Weld")
+Part34.Name = "Part"
+Part34.C0 = CFrame.new(-0.00000762939453125, -0.07567566633224487, -0.0304718017578125, 0.9999998211860657, -3.5304856284404168e-15, 1.4623747489846454e-15, 3.821370083296463e-15, 0.9238793849945068, -0.38268324732780457, 0, 0.38268330693244934, 0.9238795638084412)
+Part34.Parent = Handle
+
+local Part35 = Instance.new("Weld")
+Part35.Name = "Part"
+Part35.C0 = CFrame.new(-0.00000762939453125, -0.08907479047775269, 0.036895751953125, 0.9999998211860657, -3.821369659779989e-15, -4.2351639789650327e-22, 3.821370083296463e-15, 0.9999998211860657, 1.4901158351676713e-07, 0, -1.4901161193847656e-07, 1)
+Part35.Parent = Handle
+
+local Part36 = Instance.new("Weld")
+Part36.Name = "Part"
+Part36.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, 0.0840606689453125, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part36.Parent = Handle
+
+local Part37 = Instance.new("Weld")
+Part37.Name = "Part"
+Part37.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, 0.0590667724609375, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part37.Parent = Handle
+
+local Part38 = Instance.new("Weld")
+Part38.Name = "Part"
+Part38.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, -0.0659027099609375, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part38.Parent = Handle
+
+local Wedge17 = Instance.new("Weld")
+Wedge17.Name = "Wedge"
+Wedge17.C0 = CFrame.new(-0.00000762939453125, 0.043499648571014404, -0.0034637451171875, 0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, -1)
+Wedge17.Parent = Handle
+
+local Part39 = Instance.new("Weld")
+Part39.Name = "Part"
+Part39.C0 = CFrame.new(-0.0000152587890625, 0.2934996485710144, -1.06591796875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part39.Parent = Handle
+
+local eye = Instance.new("Weld")
+eye.Name = "eye"
+eye.C0 = CFrame.new(-0.0000152587890625, 0.2934996485710144, -1.03466796875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+eye.Parent = Handle
+
+local eye1 = Instance.new("Weld")
+eye1.Name = "eye"
+eye1.C0 = CFrame.new(-0.0000152587890625, 0.2934996485710144, -1.84722900390625, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+eye1.Parent = Handle
+
+local eye2 = Instance.new("Weld")
+eye2.Name = "eye"
+eye2.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, 0.052825927734375, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+eye2.Parent = Handle
+
+local eye3 = Instance.new("Weld")
+eye3.Name = "eye"
+eye3.C0 = CFrame.new(-0.079559326171875, 0.3355422616004944, -0.0659027099609375, 0, 0.7071065902709961, -0.7071065902709961, 0, 0.7071065902709961, 0.7071065902709961, 1, 0, 0)
+eye3.Parent = Handle
+
+local Part40 = Instance.new("Weld")
+Part40.Name = "Part"
+Part40.C0 = CFrame.new(-0.0000152587890625, 0.2934996485710144, -1.47222900390625, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part40.Parent = Handle
+
+local Wedge18 = Instance.new("Weld")
+Wedge18.Name = "Wedge"
+Wedge18.C0 = CFrame.new(-0.0000152587890625, 0.4309998154640198, 0.1715087890625, 0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, -1)
+Wedge18.Parent = Handle
+
+local Wedge19 = Instance.new("Weld")
+Wedge19.Name = "Wedge"
+Wedge19.C0 = CFrame.new(-0.0000152587890625, 0.4684998393058777, 0.134002685546875, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Wedge19.Parent = Handle
+
+local Wedge20 = Instance.new("Weld")
+Wedge20.Name = "Wedge"
+Wedge20.C0 = CFrame.new(-0.0000152587890625, 0.5059998631477356, 0.1714935302734375, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Wedge20.Parent = Handle
+
+local Part41 = Instance.new("Weld")
+Part41.Name = "Part"
+Part41.C0 = CFrame.new(-0.00000762939453125, 0.48099976778030396, -0.5909576416015625, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part41.Parent = Handle
+
+local Part42 = Instance.new("Weld")
+Part42.Name = "Part"
+Part42.C0 = CFrame.new(-0.0000152587890625, 0.2934996485710144, -1.0909271240234375, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part42.Parent = Handle
+
+local Part43 = Instance.new("Weld")
+Part43.Name = "Part"
+Part43.C0 = CFrame.new(-0.00000762939453125, 0.4684996008872986, -0.2659454345703125, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part43.Parent = Handle
+
+local Part44 = Instance.new("Weld")
+Part44.Name = "Part"
+Part44.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, -0.0659027099609375, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part44.Parent = Handle
+
+local Part45 = Instance.new("Weld")
+Part45.Name = "Part"
+Part45.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, 0.046600341796875, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part45.Parent = Handle
+
+local Part46 = Instance.new("Weld")
+Part46.Name = "Part"
+Part46.C0 = CFrame.new(-0.0000152587890625, 0.25599974393844604, -0.0722503662109375, 0, 0, -0.9999998211860657, 0, 0.9999998211860657, 0, 1, 0, 0)
+Part46.Parent = Handle
+
+local Part47 = Instance.new("Weld")
+Part47.Name = "Part"
+Part47.C0 = CFrame.new(-0.10643768310546875, 0.3624216318130493, -0.0659027099609375, 0, 0.7071067690849304, -0.7071067690849304, 0, 0.7071067690849304, 0.7071067690849304, 1, 0, 0)
+Part47.Parent = Handle
+
+local Model = Instance.new("Model")
+Model.WorldPivot = CFrame.new(104.24998474121094, 0.7937501668930054, 173.49063110351562, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Model.Parent = bbc
+
+local Wedge21 = Instance.new("WedgePart")
+Wedge21.BottomSurface = Enum.SurfaceType.Smooth
+Wedge21.Color = Color3.fromRGB(91, 93, 105)
+Wedge21.Material = Enum.Material.Metal
+Wedge21.Size = Vector3.new(0.09999990463256836, 0.04999995231628418, 0.07500000298023224)
+Wedge21.CFrame = CFrame.new(104.24999237060547, 0.3500003516674042, 174.6125030517578, 0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, -1)
+Wedge21.Parent = Model
+
+local Part48 = Instance.new("Part")
+Part48.BottomSurface = Enum.SurfaceType.Smooth
+Part48.TopSurface = Enum.SurfaceType.Smooth
+Part48.Color = Color3.fromRGB(91, 93, 105)
+Part48.Material = Enum.Material.Metal
+Part48.Size = Vector3.new(0.09999990463256836, 0.024999961256980896, 0.15000000596046448)
+Part48.CFrame = CFrame.new(104.24999237060547, 0.3875003159046173, 174.57501220703125, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part48.Parent = Model
+
+local Wedge22 = Instance.new("WedgePart")
+Wedge22.BottomSurface = Enum.SurfaceType.Smooth
+Wedge22.Color = Color3.fromRGB(91, 93, 105)
+Wedge22.Material = Enum.Material.Metal
+Wedge22.Size = Vector3.new(0.09999990463256836, 0.04999995231628418, 0.07500000298023224)
+Wedge22.CFrame = CFrame.new(104.24999237060547, 0.3500003516674042, 174.38751220703125, -0.9999998211860657, 0, 0, 0, -0.9999998211860657, 0, 0, 0, 1)
+Wedge22.Parent = Model
+
+local Part49 = Instance.new("Part")
+Part49.BottomSurface = Enum.SurfaceType.Smooth
+Part49.TopSurface = Enum.SurfaceType.Smooth
+Part49.Color = Color3.fromRGB(91, 93, 105)
+Part49.Material = Enum.Material.Metal
+Part49.Size = Vector3.new(0.09999990463256836, 0.04999995976686478, 0.15000000596046448)
+Part49.CFrame = CFrame.new(104.24999237060547, 0.3500003218650818, 174.50001525878906, 0.9999998211860657, 0, 0, 0, 0.9999998211860657, 0, 0, 0, 1)
+Part49.Parent = Model
+
+local Part50 = Instance.new("Part")
+Part50.BottomSurface = Enum.SurfaceType.Smooth
+Part50.TopSurface = Enum.SurfaceType.Smooth
+Part50.Color = Color3.fromRGB(17, 17, 17)
+Part50.Material = Enum.Material.Neon
+Part50.Size = Vector3.new(0.1713317632675171, 0.04692694917321205, 0.0010000001639127731)
+Part50.CFrame = CFrame.new(104.14356231689453, 1.0939218997955322, 174.13758850097656, 0, 0.7071066498756409, -0.7071066498756409, 0, 0.7071066498756409, 0.7071066498756409, 1, 0, 0)
+Part50.Parent = Model
+
+local Part51 = Instance.new("Part")
+Part51.BottomSurface = Enum.SurfaceType.Smooth
+Part51.TopSurface = Enum.SurfaceType.Smooth
+Part51.Color = Color3.fromRGB(67, 68, 77)
+Part51.Material = Enum.Material.Metal
+Part51.Size = Vector3.new(0.17499998211860657, 0.15000000596046448, 0.10000000149011612)
+Part51.CFrame = CFrame.new(104.17927551269531, 1.0582048892974854, 174.13758850097656, 0, 0.7071065902709961, -0.7071065902709961, 0, 0.7071065902709961, 0.7071065902709961, 1, 0, 0)
+Part51.Shape = Enum.PartType.Cylinder
+Part51.Parent = Model
+
+local chamber = Instance.new("Part")
+chamber.Name = "chamber"
+chamber.BottomSurface = Enum.SurfaceType.Smooth
+chamber.TopSurface = Enum.SurfaceType.Smooth
+chamber.Color = Color3.fromRGB(67, 68, 77)
+chamber.Material = Enum.Material.Metal
+chamber.Size = Vector3.new(0.17499998211860657, 0.04999997466802597, 0.024999987334012985)
+chamber.CFrame = CFrame.new(104.15275573730469, 1.0847225189208984, 174.13758850097656, 0, 0.7071064710617065, -0.7071064710617065, 0, 0.7071064710617065, 0.7071064710617065, 1, 0, 0)
+chamber.Parent = Model
+
+local Part52 = Instance.new("Part")
+Part52.BottomSurface = Enum.SurfaceType.Smooth
+Part52.TopSurface = Enum.SurfaceType.Smooth
+Part52.Color = Color3.fromRGB(91, 93, 105)
+Part52.Material = Enum.Material.Metal
+Part52.Size = Vector3.new(0.09999990463256836, 0.19999995827674866, 0.10000000149011612)
+Part52.CFrame = CFrame.new(104.24999237060547, 0.5000002980232239, 174.5500030517578, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part52.Parent = Model
+
+local Wedge23 = Instance.new("WedgePart")
+Wedge23.BottomSurface = Enum.SurfaceType.Smooth
+Wedge23.Color = Color3.fromRGB(91, 93, 105)
+Wedge23.Material = Enum.Material.Metal
+Wedge23.Size = Vector3.new(0.09999990463256836, 0.19999995827674866, 0.05000000074505806)
+Wedge23.CFrame = CFrame.new(104.24999237060547, 0.5000002980232239, 174.625, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge23.Parent = Model
+
+local Part53 = Instance.new("Part")
+Part53.BottomSurface = Enum.SurfaceType.Smooth
+Part53.TopSurface = Enum.SurfaceType.Smooth
+Part53.Color = Color3.fromRGB(91, 93, 105)
+Part53.Material = Enum.Material.Metal
+Part53.Size = Vector3.new(0.09999990463256836, 0.09999996423721313, 0.10000000149011612)
+Part53.CFrame = CFrame.new(104.24999237060547, 0.9250000715255737, 174.52500915527344, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part53.Shape = Enum.PartType.Cylinder
+Part53.Parent = Model
+
+local Wedge24 = Instance.new("WedgePart")
+Wedge24.BottomSurface = Enum.SurfaceType.Smooth
+Wedge24.Color = Color3.fromRGB(91, 93, 105)
+Wedge24.Material = Enum.Material.Metal
+Wedge24.Size = Vector3.new(0.09999990463256836, 0.2999999523162842, 0.02500000037252903)
+Wedge24.CFrame = CFrame.new(104.24999237060547, 0.7500002980232239, 174.5874786376953, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge24.Parent = Model
+
+local Part54 = Instance.new("Part")
+Part54.BottomSurface = Enum.SurfaceType.Smooth
+Part54.TopSurface = Enum.SurfaceType.Smooth
+Part54.Color = Color3.fromRGB(91, 93, 105)
+Part54.Material = Enum.Material.Metal
+Part54.Size = Vector3.new(0.09999990463256836, 0.32499995827674866, 0.07500000298023224)
+Part54.CFrame = CFrame.new(104.24999237060547, 0.7625002861022949, 174.53750610351562, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part54.Parent = Model
+
+local Wedge25 = Instance.new("WedgePart")
+Wedge25.BottomSurface = Enum.SurfaceType.Smooth
+Wedge25.Color = Color3.fromRGB(91, 93, 105)
+Wedge25.Material = Enum.Material.Metal
+Wedge25.Size = Vector3.new(0.09999990463256836, 0.32499998807907104, 0.05000000074505806)
+Wedge25.CFrame = CFrame.new(104.24999237060547, 0.5375001430511475, 174.32501220703125, -0.9999996423721313, 0, 0, 0, -0.9999996423721313, 0, 0, 0, 1)
+Wedge25.Parent = Model
+
+local Part55 = Instance.new("Part")
+Part55.BottomSurface = Enum.SurfaceType.Smooth
+Part55.TopSurface = Enum.SurfaceType.Smooth
+Part55.Color = Color3.fromRGB(91, 93, 105)
+Part55.Material = Enum.Material.Metal
+Part55.Size = Vector3.new(0.09999990463256836, 0.5499999523162842, 0.09999999403953552)
+Part55.CFrame = CFrame.new(104.24999237060547, 0.650000274181366, 174.45001220703125, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part55.Parent = Model
+
+local Part56 = Instance.new("Part")
+Part56.BottomSurface = Enum.SurfaceType.Smooth
+Part56.TopSurface = Enum.SurfaceType.Smooth
+Part56.Color = Color3.fromRGB(91, 93, 105)
+Part56.Material = Enum.Material.Metal
+Part56.Size = Vector3.new(0.02499985694885254, 0.1499999612569809, 0.5999999642372131)
+Part56.CFrame = CFrame.new(104.24998474121094, 0.9000003337860107, 173.3875732421875, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part56.Shape = Enum.PartType.Cylinder
+Part56.Parent = Model
+
+local Part57 = Instance.new("Part")
+Part57.BottomSurface = Enum.SurfaceType.Smooth
+Part57.TopSurface = Enum.SurfaceType.Smooth
+Part57.Color = Color3.fromRGB(91, 93, 105)
+Part57.Material = Enum.Material.Metal
+Part57.Size = Vector3.new(0.09999990463256836, 0.5499999523162842, 0.05000000074505806)
+Part57.CFrame = CFrame.new(104.24999237060547, 0.6500002145767212, 174.37501525878906, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part57.Parent = Model
+
+local Part58 = Instance.new("Part")
+Part58.BottomSurface = Enum.SurfaceType.Smooth
+Part58.TopSurface = Enum.SurfaceType.Smooth
+Part58.Color = Color3.fromRGB(91, 93, 105)
+Part58.Material = Enum.Material.Metal
+Part58.Size = Vector3.new(0.09999990463256836, 0.17499996721744537, 0.05000000074505806)
+Part58.CFrame = CFrame.new(104.24999237060547, 0.7875002026557922, 174.32501220703125, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part58.Parent = Model
+
+local Part59 = Instance.new("Part")
+Part59.BottomSurface = Enum.SurfaceType.Smooth
+Part59.TopSurface = Enum.SurfaceType.Smooth
+Part59.Color = Color3.fromRGB(91, 93, 105)
+Part59.Material = Enum.Material.Metal
+Part59.Size = Vector3.new(0.09999990463256836, 0.04999995231628418, 0.17499998211860657)
+Part59.CFrame = CFrame.new(104.24999237060547, 0.9500001072883606, 174.4375, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part59.Parent = Model
+
+local Wedge26 = Instance.new("WedgePart")
+Wedge26.BottomSurface = Enum.SurfaceType.Smooth
+Wedge26.Color = Color3.fromRGB(91, 93, 105)
+Wedge26.Material = Enum.Material.Metal
+Wedge26.Size = Vector3.new(0.09999990463256836, 0.07499992847442627, 0.1499999761581421)
+Wedge26.CFrame = CFrame.new(104.24999237060547, 1.0125001668930054, 174.42498779296875, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge26.Parent = Model
+
+local Wedge27 = Instance.new("WedgePart")
+Wedge27.BottomSurface = Enum.SurfaceType.Smooth
+Wedge27.Color = Color3.fromRGB(91, 93, 105)
+Wedge27.Material = Enum.Material.Metal
+Wedge27.Size = Vector3.new(0.02499990165233612, 0.19999992847442627, 0.17499998211860657)
+Wedge27.CFrame = CFrame.new(104.2874984741211, 1.0750001668930054, 174.4375, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge27.Parent = Model
+
+local Part60 = Instance.new("Part")
+Part60.BottomSurface = Enum.SurfaceType.Smooth
+Part60.TopSurface = Enum.SurfaceType.Smooth
+Part60.Color = Color3.fromRGB(91, 93, 105)
+Part60.Material = Enum.Material.Metal
+Part60.Size = Vector3.new(0.0499999038875103, 0.02499997243285179, 0.07499994337558746)
+Part60.CFrame = CFrame.new(104.24999237060547, 0.6558248400688171, 174.30775451660156, 0.9999996423721313, -3.530484357890996e-15, -1.4623752783802374e-15, 3.8213692362635155e-15, 0.923879086971283, 0.38268348574638367, 0, -0.3826836049556732, 0.9238794445991516)
+Part60.Parent = Model
+
+local Wedge28 = Instance.new("WedgePart")
+Wedge28.BottomSurface = Enum.SurfaceType.Smooth
+Wedge28.Color = Color3.fromRGB(91, 93, 105)
+Wedge28.Material = Enum.Material.Metal
+Wedge28.Size = Vector3.new(0.02499990165233612, 0.19999992847442627, 0.17499998211860657)
+Wedge28.CFrame = CFrame.new(104.21248626708984, 1.0750001668930054, 174.4375, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge28.Parent = Model
+
+local Wedge29 = Instance.new("WedgePart")
+Wedge29.BottomSurface = Enum.SurfaceType.Smooth
+Wedge29.Color = Color3.fromRGB(91, 93, 105)
+Wedge29.Material = Enum.Material.Metal
+Wedge29.Size = Vector3.new(0.09999990463256836, 0.12499993294477463, 0.09999996423721313)
+Wedge29.CFrame = CFrame.new(104.24999237060547, 1.0375001430511475, 174.39999389648438, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge29.Parent = Model
+
+local Wedge30 = Instance.new("WedgePart")
+Wedge30.BottomSurface = Enum.SurfaceType.Smooth
+Wedge30.Color = Color3.fromRGB(91, 93, 105)
+Wedge30.Material = Enum.Material.Metal
+Wedge30.Size = Vector3.new(0.09999990463256836, 0.1749999225139618, 0.04999995604157448)
+Wedge30.CFrame = CFrame.new(104.24999237060547, 1.0625001192092896, 174.37501525878906, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge30.Parent = Model
+
+local Wedge31 = Instance.new("WedgePart")
+Wedge31.BottomSurface = Enum.SurfaceType.Smooth
+Wedge31.Color = Color3.fromRGB(91, 93, 105)
+Wedge31.Material = Enum.Material.Metal
+Wedge31.Size = Vector3.new(0.09999990463256836, 0.09999994933605194, 0.22500000894069672)
+Wedge31.CFrame = CFrame.new(104.24999237060547, 0.8000001311302185, 174.2125244140625, -0.9999996423721313, 0, 0, 0, -0.9999996423721313, 0, 0, 0, 1)
+Wedge31.Parent = Model
+
+local Part61 = Instance.new("Part")
+Part61.BottomSurface = Enum.SurfaceType.Smooth
+Part61.TopSurface = Enum.SurfaceType.Smooth
+Part61.Color = Color3.fromRGB(91, 93, 105)
+Part61.Material = Enum.Material.Metal
+Part61.Size = Vector3.new(0.09999990463256836, 0.04999995231628418, 0.04999998211860657)
+Part61.CFrame = CFrame.new(104.24999237060547, 1.1500000953674316, 174.12506103515625, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part61.Parent = Model
+
+local Part62 = Instance.new("Part")
+Part62.BottomSurface = Enum.SurfaceType.Smooth
+Part62.TopSurface = Enum.SurfaceType.Smooth
+Part62.Color = Color3.fromRGB(91, 93, 105)
+Part62.Material = Enum.Material.Metal
+Part62.Size = Vector3.new(0.09999990463256836, 0.024999961256980896, 0.17499995231628418)
+Part62.CFrame = CFrame.new(104.24999237060547, 1.1125001907348633, 174.01255798339844, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part62.Parent = Model
+
+local Wedge32 = Instance.new("WedgePart")
+Wedge32.BottomSurface = Enum.SurfaceType.Smooth
+Wedge32.Color = Color3.fromRGB(91, 93, 105)
+Wedge32.Material = Enum.Material.Metal
+Wedge32.Size = Vector3.new(0.09999990463256836, 0.04999992251396179, 0.15000000596046448)
+Wedge32.CFrame = CFrame.new(104.2499771118164, 1.1500002145767212, 174.02500915527344, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Wedge32.Parent = Model
+
+local Wedge33 = Instance.new("WedgePart")
+Wedge33.BottomSurface = Enum.SurfaceType.Smooth
+Wedge33.Color = Color3.fromRGB(91, 93, 105)
+Wedge33.Material = Enum.Material.Metal
+Wedge33.Size = Vector3.new(0.0499999038875103, 0.04999992251396179, 0.22499999403953552)
+Wedge33.CFrame = CFrame.new(104.2499771118164, 1.2000001668930054, 174.06251525878906, -0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, -1)
+Wedge33.Parent = Model
+
+local Part63 = Instance.new("Part")
+Part63.BottomSurface = Enum.SurfaceType.Smooth
+Part63.TopSurface = Enum.SurfaceType.Smooth
+Part63.Color = Color3.fromRGB(91, 93, 105)
+Part63.Material = Enum.Material.Metal
+Part63.Size = Vector3.new(0.0499999038875103, 0.02499995194375515, 0.8999999761581421)
+Part63.CFrame = CFrame.new(104.24999237060547, 1.1625001430511475, 173.67503356933594, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part63.Parent = Model
+
+local Part64 = Instance.new("Part")
+Part64.BottomSurface = Enum.SurfaceType.Smooth
+Part64.TopSurface = Enum.SurfaceType.Smooth
+Part64.Color = Color3.fromRGB(91, 93, 105)
+Part64.Material = Enum.Material.Metal
+Part64.Size = Vector3.new(0.0499999038875103, 0.04999995231628418, 0.024999938905239105)
+Part64.CFrame = CFrame.new(104.24999237060547, 1.2000000476837158, 173.3125457763672, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part64.Parent = Model
+
+local Part65 = Instance.new("Part")
+Part65.BottomSurface = Enum.SurfaceType.Smooth
+Part65.TopSurface = Enum.SurfaceType.Smooth
+Part65.Color = Color3.fromRGB(91, 93, 105)
+Part65.Material = Enum.Material.Metal
+Part65.Size = Vector3.new(0.09999990463256836, 0.02499997243285179, 0.8999999761581421)
+Part65.CFrame = CFrame.new(104.24999237060547, 0.8625001907348633, 173.85011291503906, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part65.Parent = Model
+
+local Part66 = Instance.new("Part")
+Part66.BottomSurface = Enum.SurfaceType.Smooth
+Part66.TopSurface = Enum.SurfaceType.Smooth
+Part66.Color = Color3.fromRGB(62, 64, 72)
+Part66.Material = Enum.Material.Metal
+Part66.Size = Vector3.new(0.8249999284744263, 0.1499999612569809, 0.5999999642372131)
+Part66.CFrame = CFrame.new(104.24998474121094, 1.0250000953674316, 173.5875701904297, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part66.Shape = Enum.PartType.Cylinder
+Part66.Parent = Model
+
+local Part67 = Instance.new("Part")
+Part67.BottomSurface = Enum.SurfaceType.Smooth
+Part67.TopSurface = Enum.SurfaceType.Smooth
+Part67.Color = Color3.fromRGB(62, 64, 72)
+Part67.Material = Enum.Material.Metal
+Part67.Size = Vector3.new(0.02500000037252903, 0.2749999761581421, 0.5999999642372131)
+Part67.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.01255798339844, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part67.Shape = Enum.PartType.Cylinder
+Part67.Parent = Model
+
+local Wedge34 = Instance.new("WedgePart")
+Wedge34.BottomSurface = Enum.SurfaceType.Smooth
+Wedge34.Color = Color3.fromRGB(91, 93, 105)
+Wedge34.Material = Enum.Material.Metal
+Wedge34.Size = Vector3.new(0.024999897927045822, 0.1499999463558197, 0.07500000298023224)
+Wedge34.CFrame = CFrame.new(104.24999237060547, 0.7749999761581421, 174.1375274658203, -0.9999996423721313, 0, 0, 0, -0.9999996423721313, 0, 0, 0, 1)
+Wedge34.Parent = Model
+
+local Part68 = Instance.new("Part")
+Part68.BottomSurface = Enum.SurfaceType.Smooth
+Part68.TopSurface = Enum.SurfaceType.Smooth
+Part68.Color = Color3.fromRGB(91, 93, 105)
+Part68.Material = Enum.Material.Metal
+Part68.Size = Vector3.new(0.09999990463256836, 0.02499995194375515, 0.20000000298023224)
+Part68.CFrame = CFrame.new(104.24999237060547, 1.1624999046325684, 174.24998474121094, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part68.Parent = Model
+
+local Part69 = Instance.new("Part")
+Part69.BottomSurface = Enum.SurfaceType.Smooth
+Part69.TopSurface = Enum.SurfaceType.Smooth
+Part69.Color = Color3.fromRGB(159, 161, 172)
+Part69.Material = Enum.Material.Metal
+Part69.Size = Vector3.new(0.10000000149011612, 0.05000000074505806, 0.05000000074505806)
+Part69.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.300048828125, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part69.Shape = Enum.PartType.Cylinder
+Part69.Parent = Model
+
+local Part70 = Instance.new("Part")
+Part70.BottomSurface = Enum.SurfaceType.Smooth
+Part70.TopSurface = Enum.SurfaceType.Smooth
+Part70.Color = Color3.fromRGB(145, 148, 167)
+Part70.Material = Enum.Material.Metal
+Part70.Size = Vector3.new(0.14999990165233612, 0.024999959394335747, 1.1499998569488525)
+Part70.CFrame = CFrame.new(104.24999237060547, 1.1375000476837158, 173.77503967285156, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part70.Parent = Model
+
+local Part71 = Instance.new("Part")
+Part71.BottomSurface = Enum.SurfaceType.Smooth
+Part71.TopSurface = Enum.SurfaceType.Smooth
+Part71.Color = Color3.fromRGB(91, 93, 105)
+Part71.Material = Enum.Material.Metal
+Part71.Size = Vector3.new(0.02500000037252903, 0.22499999403953552, 0.15000000596046448)
+Part71.CFrame = CFrame.new(104.24998474121094, 1.0125000476837158, 173.3875732421875, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part71.Parent = Model
+
+local Wedge35 = Instance.new("WedgePart")
+Wedge35.BottomSurface = Enum.SurfaceType.Smooth
+Wedge35.Color = Color3.fromRGB(91, 93, 105)
+Wedge35.Material = Enum.Material.Metal
+Wedge35.Size = Vector3.new(0.09999990463256836, 0.04999994486570358, 0.04999997466802597)
+Wedge35.CFrame = CFrame.new(104.24999237060547, 0.899999737739563, 174.32501220703125, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Wedge35.Parent = Model
+
+local Wedge36 = Instance.new("WedgePart")
+Wedge36.BottomSurface = Enum.SurfaceType.Smooth
+Wedge36.Color = Color3.fromRGB(91, 93, 105)
+Wedge36.Material = Enum.Material.Metal
+Wedge36.Size = Vector3.new(0.09999990463256836, 0.04999994486570358, 0.04999997466802597)
+Wedge36.CFrame = CFrame.new(104.24999237060547, 1.0749967098236084, 174.32501220703125, 0.9999996423721313, 0, 0, 0, 0, 0.9999996423721313, 0, -1, 0)
+Wedge36.Parent = Model
+
+local Part72 = Instance.new("Part")
+Part72.BottomSurface = Enum.SurfaceType.Smooth
+Part72.TopSurface = Enum.SurfaceType.Smooth
+Part72.Color = Color3.fromRGB(159, 161, 172)
+Part72.Material = Enum.Material.Metal
+Part72.Size = Vector3.new(0.09999990463256836, 0.19999997317790985, 0.6000000238418579)
+Part72.CFrame = CFrame.new(104.24999237060547, 1, 173.70001220703125, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part72.Parent = Model
+
+local Part73 = Instance.new("Part")
+Part73.BottomSurface = Enum.SurfaceType.Smooth
+Part73.TopSurface = Enum.SurfaceType.Smooth
+Part73.Color = Color3.fromRGB(159, 161, 172)
+Part73.Material = Enum.Material.Metal
+Part73.Size = Vector3.new(0.5999999046325684, 0.09999996423721313, 0.5999999642372131)
+Part73.CFrame = CFrame.new(104.24998474121094, 0.9000000953674316, 173.7000732421875, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part73.Shape = Enum.PartType.Cylinder
+Part73.Parent = Model
+
+local Part74 = Instance.new("Part")
+Part74.BottomSurface = Enum.SurfaceType.Smooth
+Part74.TopSurface = Enum.SurfaceType.Smooth
+Part74.Color = Color3.fromRGB(91, 93, 105)
+Part74.Material = Enum.Material.Metal
+Part74.Size = Vector3.new(0.09999990463256836, 0.024999959394335747, 0.9499999284744263)
+Part74.CFrame = CFrame.new(104.24999237060547, 1.1124999523162842, 173.8750457763672, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part74.Parent = Model
+
+local Part75 = Instance.new("Part")
+Part75.BottomSurface = Enum.SurfaceType.Smooth
+Part75.TopSurface = Enum.SurfaceType.Smooth
+Part75.Color = Color3.fromRGB(91, 93, 105)
+Part75.Material = Enum.Material.Metal
+Part75.Size = Vector3.new(0.0499999038875103, 0.09999996423721313, 0.10000000149011612)
+Part75.CFrame = CFrame.new(104.24999237060547, 1.174999713897705, 173.27493286132812, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part75.Shape = Enum.PartType.Cylinder
+Part75.Parent = Model
+
+local Part76 = Instance.new("Part")
+Part76.BottomSurface = Enum.SurfaceType.Smooth
+Part76.TopSurface = Enum.SurfaceType.Smooth
+Part76.Color = Color3.fromRGB(67, 68, 77)
+Part76.Material = Enum.Material.Metal
+Part76.Size = Vector3.new(0.22499999403953552, 0.012500000186264515, 0.25)
+Part76.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.13124084472656, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part76.Parent = Model
+
+local Part77 = Instance.new("Part")
+Part77.BottomSurface = Enum.SurfaceType.Smooth
+Part77.TopSurface = Enum.SurfaceType.Smooth
+Part77.Color = Color3.fromRGB(145, 148, 167)
+Part77.Material = Enum.Material.Metal
+Part77.Size = Vector3.new(0.02499985694885254, 0.19999995827674866, 0.1499999463558197)
+Part77.CFrame = CFrame.new(104.24998474121094, 0.8750001192092896, 173.21255493164062, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part77.Shape = Enum.PartType.Cylinder
+Part77.Parent = Model
+
+local Part78 = Instance.new("Part")
+Part78.BottomSurface = Enum.SurfaceType.Smooth
+Part78.TopSurface = Enum.SurfaceType.Smooth
+Part78.Color = Color3.fromRGB(62, 64, 72)
+Part78.Material = Enum.Material.Metal
+Part78.Size = Vector3.new(0.14999985694885254, 0.049999963492155075, 0.5999999642372131)
+Part78.CFrame = CFrame.new(104.24998474121094, 0.9000000953674316, 173.30007934570312, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part78.Shape = Enum.PartType.Cylinder
+Part78.Parent = Model
+
+local Wedge37 = Instance.new("WedgePart")
+Wedge37.BottomSurface = Enum.SurfaceType.Smooth
+Wedge37.Color = Color3.fromRGB(91, 93, 105)
+Wedge37.Material = Enum.Material.Metal
+Wedge37.Size = Vector3.new(0.09999990463256836, 0.19999992847442627, 0.125)
+Wedge37.CFrame = CFrame.new(104.24999237060547, 0.7499999403953552, 174.2625274658203, -0.9999996423721313, 0, 0, 0, -0.9999996423721313, 0, 0, 0, 1)
+Wedge37.Parent = Model
+
+local Part79 = Instance.new("Part")
+Part79.BottomSurface = Enum.SurfaceType.Smooth
+Part79.TopSurface = Enum.SurfaceType.Smooth
+Part79.Color = Color3.fromRGB(91, 93, 105)
+Part79.Material = Enum.Material.Metal
+Part79.Size = Vector3.new(0.0499999038875103, 0.02499997243285179, 0.07499994337558746)
+Part79.CFrame = CFrame.new(104.24999237060547, 0.8184506893157959, 174.06434631347656, 0.9999996423721313, 0, 3.8213692362635155e-15, 3.8213692362635155e-15, 4.3711374075883214e-08, -0.9999996423721313, 0, 1, 4.371138828673793e-08)
+Part79.Parent = Model
+
+local Part80 = Instance.new("Part")
+Part80.BottomSurface = Enum.SurfaceType.Smooth
+Part80.TopSurface = Enum.SurfaceType.Smooth
+Part80.Color = Color3.fromRGB(91, 93, 105)
+Part80.Material = Enum.Material.Metal
+Part80.Size = Vector3.new(0.0499999038875103, 0.02499997243285179, 0.07499994337558746)
+Part80.CFrame = CFrame.new(104.24999237060547, 0.7510887980461121, 174.07774353027344, 0.9999996423721313, -1.4623749607428822e-15, 3.5304849931657063e-15, 3.8213692362635155e-15, 0.3826833665370941, -0.9238791465759277, 0, 0.9238795042037964, 0.38268348574638367)
+Part80.Parent = Model
+
+local Part81 = Instance.new("Part")
+Part81.BottomSurface = Enum.SurfaceType.Smooth
+Part81.TopSurface = Enum.SurfaceType.Smooth
+Part81.Color = Color3.fromRGB(91, 93, 105)
+Part81.Material = Enum.Material.Metal
+Part81.Size = Vector3.new(0.0499999038875103, 0.02499997243285179, 0.07499994337558746)
+Part81.CFrame = CFrame.new(104.24999237060547, 0.6939821243286133, 174.11590576171875, 0.9999996423721313, -2.7021164169041545e-15, 2.7021162051459177e-15, 3.8213692362635155e-15, 0.7071065902709961, -0.7071064710617065, 0, 0.7071067094802856, 0.7071068286895752)
+Part81.Parent = Model
+
+local Part82 = Instance.new("Part")
+Part82.BottomSurface = Enum.SurfaceType.Smooth
+Part82.TopSurface = Enum.SurfaceType.Smooth
+Part82.Color = Color3.fromRGB(91, 93, 105)
+Part82.Material = Enum.Material.Metal
+Part82.Size = Vector3.new(0.0499999038875103, 0.02499997243285179, 0.07499994337558746)
+Part82.CFrame = CFrame.new(104.24999237060547, 0.6558246612548828, 174.1730194091797, 0.9999996423721313, -3.5304849931657063e-15, 1.4623745372264086e-15, 3.8213692362635155e-15, 0.9238792061805725, -0.3826831877231598, 0, 0.38268330693244934, 0.9238795638084412)
+Part82.Parent = Model
+
+local Part83 = Instance.new("Part")
+Part83.BottomSurface = Enum.SurfaceType.Smooth
+Part83.TopSurface = Enum.SurfaceType.Smooth
+Part83.Color = Color3.fromRGB(91, 93, 105)
+Part83.Material = Enum.Material.Metal
+Part83.Size = Vector3.new(0.0499999038875103, 0.02499997243285179, 0.07499994337558746)
+Part83.CFrame = CFrame.new(104.24999237060547, 0.642425537109375, 174.24038696289062, 0.9999996423721313, -3.821368812747042e-15, -4.2351632216585637e-22, 3.8213692362635155e-15, 0.9999996423721313, 1.490115550950577e-07, 0, -1.4901161193847656e-07, 1)
+Part83.Parent = Model
+
+local Part84 = Instance.new("Part")
+Part84.BottomSurface = Enum.SurfaceType.Smooth
+Part84.TopSurface = Enum.SurfaceType.Smooth
+Part84.Color = Color3.fromRGB(62, 64, 72)
+Part84.Material = Enum.Material.Metal
+Part84.Size = Vector3.new(0.07500000298023224, 0.10000000149011612, 0.10000000149011612)
+Part84.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.2875518798828, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part84.Shape = Enum.PartType.Cylinder
+Part84.Parent = Model
+
+local Part85 = Instance.new("Part")
+Part85.BottomSurface = Enum.SurfaceType.Smooth
+Part85.TopSurface = Enum.SurfaceType.Smooth
+Part85.Color = Color3.fromRGB(62, 64, 72)
+Part85.Material = Enum.Material.Metal
+Part85.Size = Vector3.new(0.02500000037252903, 0.25, 0.20000000298023224)
+Part85.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.26255798339844, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part85.Shape = Enum.PartType.Cylinder
+Part85.Parent = Model
+
+local Part86 = Instance.new("Part")
+Part86.BottomSurface = Enum.SurfaceType.Smooth
+Part86.TopSurface = Enum.SurfaceType.Smooth
+Part86.Color = Color3.fromRGB(91, 93, 105)
+Part86.Material = Enum.Material.Metal
+Part86.Size = Vector3.new(0.22499999403953552, 0.25, 0.25)
+Part86.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.13758850097656, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part86.Shape = Enum.PartType.Cylinder
+Part86.Parent = Model
+
+local Wedge38 = Instance.new("WedgePart")
+Wedge38.BottomSurface = Enum.SurfaceType.Smooth
+Wedge38.Color = Color3.fromRGB(91, 93, 105)
+Wedge38.Material = Enum.Material.Metal
+Wedge38.Size = Vector3.new(0.024999897927045822, 0.1499999463558197, 0.05000000074505806)
+Wedge38.CFrame = CFrame.new(104.24999237060547, 0.7749999761581421, 174.2000274658203, 0.9999996423721313, 0, 0, 0, -0.9999996423721313, 0, 0, 0, -1)
+Wedge38.Parent = Model
+
+local Part87 = Instance.new("Part")
+Part87.BottomSurface = Enum.SurfaceType.Smooth
+Part87.TopSurface = Enum.SurfaceType.Smooth
+Part87.Color = Color3.fromRGB(91, 93, 105)
+Part87.Material = Enum.Material.Metal
+Part87.Size = Vector3.new(0.07499992847442627, 0.1499999612569809, 0.09999994933605194)
+Part87.CFrame = CFrame.new(104.24998474121094, 1.0249998569488525, 173.1375732421875, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part87.Shape = Enum.PartType.Cylinder
+Part87.Parent = Model
+
+local lights = Instance.new("Model")
+lights.Name = "lights"
+lights.WorldPivot = CFrame.new(104.24998474121094, 0.9875001311302185, 173.30628967285156, 0, 0.7071067094802856, -0.7071067094802856, 0, 0.7071067094802856, 0.7071067094802856, 1, 0, 0)
+lights.Parent = Model
+
+local nen = Instance.new("Part")
+nen.Name = "nen"
+nen.BottomSurface = Enum.SurfaceType.Smooth
+nen.TopSurface = Enum.SurfaceType.Smooth
+nen.Color = Color3.fromRGB(196, 40, 28)
+nen.Material = Enum.Material.Neon
+nen.Size = Vector3.new(0.01249992847442627, 0.1499999612569809, 0.12499994784593582)
+nen.CFrame = CFrame.new(104.24998474121094, 1.0249998569488525, 173.1688232421875, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+nen.Shape = Enum.PartType.Cylinder
+nen.Parent = lights
+
+local f = Instance.new("Part")
+f.Name = "f"
+f.BottomSurface = Enum.SurfaceType.Smooth
+f.TopSurface = Enum.SurfaceType.Smooth
+f.Color = Color3.fromRGB(196, 40, 28)
+f.Material = Enum.Material.Neon
+f.Size = Vector3.new(0.012499868869781494, 0.1499999612569809, 0.09999994933605194)
+f.CFrame = CFrame.new(104.24998474121094, 1.0249998569488525, 172.35626220703125, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+f.Shape = Enum.PartType.Cylinder
+f.Parent = lights
+
+local ParticleEmitter = Instance.new("ParticleEmitter")
+ParticleEmitter.Lifetime = NumberRange.new(0.3, 0.5)
+ParticleEmitter.SpreadAngle = Vector2.new(360, 360)
+ParticleEmitter.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.3), NumberSequenceKeypoint.new(0.3, 0), NumberSequenceKeypoint.new(1, 1)})
+ParticleEmitter.LightEmission = 0.5
+ParticleEmitter.Color = ColorSequence.new(Color3.fromRGB(255, 0, 0))
+ParticleEmitter.VelocitySpread = 360
+ParticleEmitter.Speed = NumberRange.new(0.2, 0.2)
+ParticleEmitter.Size = NumberSequence.new(0.05, 0)
+ParticleEmitter.Acceleration = Vector3.new(0, 5, 0)
+ParticleEmitter.RotSpeed = NumberRange.new(-180, 180)
+ParticleEmitter.ZOffset = 0.2
+ParticleEmitter.Rate = 150
+ParticleEmitter.Texture = "http://www.roblox.com/asset/?id=304437537"
+ParticleEmitter.Rotation = NumberRange.new(-180, 180)
+ParticleEmitter.Parent = f
+
+local nen1 = Instance.new("Part")
+nen1.Name = "nen"
+nen1.BottomSurface = Enum.SurfaceType.Smooth
+nen1.TopSurface = Enum.SurfaceType.Smooth
+nen1.Color = Color3.fromRGB(196, 40, 28)
+nen1.Material = Enum.Material.Neon
+nen1.Size = Vector3.new(0.012500000186264515, 0.22499999403953552, 0.25)
+nen1.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.25631713867188, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+nen1.Shape = Enum.PartType.Cylinder
+nen1.Parent = lights
+
+local nen2 = Instance.new("Part")
+nen2.Name = "nen"
+nen2.BottomSurface = Enum.SurfaceType.Smooth
+nen2.TopSurface = Enum.SurfaceType.Smooth
+nen2.Color = Color3.fromRGB(196, 40, 28)
+nen2.Material = Enum.Material.Neon
+nen2.Size = Vector3.new(0.19999997317790985, 0.10000000149011612, 0.02500000037252903)
+nen2.CFrame = CFrame.new(104.17044067382812, 1.067042589187622, 174.13758850097656, 0, 0.7071064710617065, -0.7071064710617065, 0, 0.7071064710617065, 0.7071064710617065, 1, 0, 0)
+nen2.Parent = lights
+
+local Part88 = Instance.new("Part")
+Part88.BottomSurface = Enum.SurfaceType.Smooth
+Part88.TopSurface = Enum.SurfaceType.Smooth
+Part88.Color = Color3.fromRGB(17, 17, 17)
+Part88.Material = Enum.Material.Metal
+Part88.Size = Vector3.new(0.7374998927116394, 0.1499999612569809, 0.12499994784593582)
+Part88.CFrame = CFrame.new(104.24998474121094, 1.0249998569488525, 172.73126220703125, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part88.Shape = Enum.PartType.Cylinder
+Part88.Parent = Model
+
+local Wedge39 = Instance.new("WedgePart")
+Wedge39.BottomSurface = Enum.SurfaceType.Smooth
+Wedge39.Color = Color3.fromRGB(91, 93, 105)
+Wedge39.Material = Enum.Material.Metal
+Wedge39.Size = Vector3.new(0.024999894201755524, 0.12499993294477463, 0.04999997839331627)
+Wedge39.CFrame = CFrame.new(104.24998474121094, 1.162500023841858, 174.375, 0.9999996423721313, 0, 0, 0, -0.9999996423721313, 0, 0, 0, -1)
+Wedge39.Parent = Model
+
+local Wedge40 = Instance.new("WedgePart")
+Wedge40.BottomSurface = Enum.SurfaceType.Smooth
+Wedge40.Color = Color3.fromRGB(91, 93, 105)
+Wedge40.Material = Enum.Material.Metal
+Wedge40.Size = Vector3.new(0.024999894201755524, 0.04999992996454239, 0.02499997988343239)
+Wedge40.CFrame = CFrame.new(104.24998474121094, 1.2000000476837158, 174.33749389648438, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Wedge40.Parent = Model
+
+local Wedge41 = Instance.new("WedgePart")
+Wedge41.BottomSurface = Enum.SurfaceType.Smooth
+Wedge41.Color = Color3.fromRGB(91, 93, 105)
+Wedge41.Material = Enum.Material.Metal
+Wedge41.Size = Vector3.new(0.024999894201755524, 0.02499992400407791, 0.04999998211860657)
+Wedge41.CFrame = CFrame.new(104.24998474121094, 1.2375000715255737, 174.37498474121094, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Wedge41.Parent = Model
+
+local Part89 = Instance.new("Part")
+Part89.BottomSurface = Enum.SurfaceType.Smooth
+Part89.TopSurface = Enum.SurfaceType.Smooth
+Part89.Color = Color3.fromRGB(91, 93, 105)
+Part89.Material = Enum.Material.Metal
+Part89.Size = Vector3.new(0.0499999038875103, 0.02499995194375515, 0.6749999523162842)
+Part89.CFrame = CFrame.new(104.24999237060547, 1.212499976158142, 173.61253356933594, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part89.Parent = Model
+
+local Part90 = Instance.new("Part")
+Part90.BottomSurface = Enum.SurfaceType.Smooth
+Part90.TopSurface = Enum.SurfaceType.Smooth
+Part90.Color = Color3.fromRGB(91, 93, 105)
+Part90.Material = Enum.Material.Metal
+Part90.Size = Vector3.new(0.02499992400407791, 0.1499999612569809, 0.1499999463558197)
+Part90.CFrame = CFrame.new(104.24998474121094, 1.0249998569488525, 173.11256408691406, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part90.Shape = Enum.PartType.Cylinder
+Part90.Parent = Model
+
+local Part91 = Instance.new("Part")
+Part91.BottomSurface = Enum.SurfaceType.Smooth
+Part91.TopSurface = Enum.SurfaceType.Smooth
+Part91.Color = Color3.fromRGB(91, 93, 105)
+Part91.Material = Enum.Material.Metal
+Part91.Size = Vector3.new(0.0499999038875103, 0.04999995231628418, 0.024999938905239105)
+Part91.CFrame = CFrame.new(104.24999237060547, 1.1999998092651367, 173.9375457763672, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part91.Parent = Model
+
+local Part92 = Instance.new("Part")
+Part92.BottomSurface = Enum.SurfaceType.Smooth
+Part92.TopSurface = Enum.SurfaceType.Smooth
+Part92.Color = Color3.fromRGB(67, 68, 77)
+Part92.Material = Enum.Material.Metal
+Part92.Size = Vector3.new(0.012499990873038769, 0.30000001192092896, 0.2750000059604645)
+Part92.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.13758850097656, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part92.Shape = Enum.PartType.Cylinder
+Part92.Parent = Model
+
+local Part93 = Instance.new("Part")
+Part93.BottomSurface = Enum.SurfaceType.Smooth
+Part93.TopSurface = Enum.SurfaceType.Smooth
+Part93.Color = Color3.fromRGB(67, 68, 77)
+Part93.Material = Enum.Material.Metal
+Part93.Size = Vector3.new(0.012499990873038769, 0.30000001192092896, 0.2750000059604645)
+Part93.CFrame = CFrame.new(104.24998474121094, 0.987500011920929, 174.25009155273438, 0, 0, -0.9999996423721313, 0, 0.9999996423721313, 0, 1, 0, 0)
+Part93.Shape = Enum.PartType.Cylinder
+Part93.Parent = Model
+
+local Part94 = Instance.new("Part")
+Part94.BottomSurface = Enum.SurfaceType.Smooth
+Part94.TopSurface = Enum.SurfaceType.Smooth
+Part94.Color = Color3.fromRGB(145, 148, 167)
+Part94.Material = Enum.Material.Metal
+Part94.Size = Vector3.new(0.14999990165233612, 0.2749999463558197, 0.02499997615814209)
+Part94.CFrame = CFrame.new(104.24999237060547, 1.012500524520874, 173.21253967285156, 0.9999996423721313, 0, 0, 0, 0.9999996423721313, 0, 0, 0, 1)
+Part94.Parent = Model
+
+Wedge.Part1 = Wedge21
+Wedge.Part0 = Handle
+
+Part.Part1 = Part48
+Part.Part0 = Handle
+
+Wedge1.Part1 = Wedge22
+Wedge1.Part0 = Handle
+
+Part1.Part1 = Part49
+Part1.Part0 = Handle
+
+Part2.Part1 = Part51
+Part2.Part0 = Handle
+
+Part3.Part1 = chamber
+Part3.Part0 = Handle
+
+Part4.Part1 = Part52
+Part4.Part0 = Handle
+
+Wedge2.Part1 = Wedge23
+Wedge2.Part0 = Handle
+
+Part5.Part1 = Part53
+Part5.Part0 = Handle
+
+Wedge3.Part1 = Wedge24
+Wedge3.Part0 = Handle
+
+Part6.Part1 = Part54
+Part6.Part0 = Handle
+
+Wedge4.Part1 = Wedge25
+Wedge4.Part0 = Handle
+
+Part7.Part1 = Part55
+Part7.Part0 = Handle
+
+Part8.Part1 = Part56
+Part8.Part0 = Handle
+
+Part9.Part1 = Part57
+Part9.Part0 = Handle
+
+Part10.Part1 = Part58
+Part10.Part0 = Handle
+
+Part11.Part1 = Part59
+Part11.Part0 = Handle
+
+Wedge5.Part1 = Wedge26
+Wedge5.Part0 = Handle
+
+Wedge6.Part1 = Wedge27
+Wedge6.Part0 = Handle
+
+Part12.Part1 = Part60
+Part12.Part0 = Handle
+
+Wedge7.Part1 = Wedge28
+Wedge7.Part0 = Handle
+
+Wedge8.Part1 = Wedge29
+Wedge8.Part0 = Handle
+
+Wedge9.Part1 = Wedge30
+Wedge9.Part0 = Handle
+
+Wedge10.Part1 = Wedge31
+Wedge10.Part0 = Handle
+
+Part13.Part1 = Part61
+Part13.Part0 = Handle
+
+Part14.Part1 = Part62
+Part14.Part0 = Handle
+
+Wedge11.Part1 = Wedge32
+Wedge11.Part0 = Handle
+
+Wedge12.Part1 = Wedge33
+Wedge12.Part0 = Handle
+
+Part15.Part1 = Part63
+Part15.Part0 = Handle
+
+Part16.Part1 = Part64
+Part16.Part0 = Handle
+
+Part17.Part1 = Part65
+Part17.Part0 = Handle
+
+Part18.Part1 = Part66
+Part18.Part0 = Handle
+
+Part19.Part1 = Part67
+Part19.Part0 = Handle
+
+Wedge13.Part1 = Wedge34
+Wedge13.Part0 = Handle
+
+Part20.Part1 = Part68
+Part20.Part0 = Handle
+
+Part21.Part1 = Part69
+Part21.Part0 = Handle
+
+Part22.Part1 = Part70
+Part22.Part0 = Handle
+
+Part23.Part1 = Part71
+Part23.Part0 = Handle
+
+Wedge14.Part1 = Wedge35
+Wedge14.Part0 = Handle
+
+Wedge15.Part1 = Wedge36
+Wedge15.Part0 = Handle
+
+Part24.Part1 = Part72
+Part24.Part0 = Handle
+
+Part25.Part1 = Part73
+Part25.Part0 = Handle
+
+Part26.Part1 = Part74
+Part26.Part0 = Handle
+
+Part27.Part1 = Part75
+Part27.Part0 = Handle
+
+Part28.Part1 = Part94
+Part28.Part0 = Handle
+
+Part29.Part1 = Part77
+Part29.Part0 = Handle
+
+Part30.Part1 = Part78
+Part30.Part0 = Handle
+
+Wedge16.Part1 = Wedge37
+Wedge16.Part0 = Handle
+
+Part31.Part1 = Part79
+Part31.Part0 = Handle
+
+Part32.Part1 = Part80
+Part32.Part0 = Handle
+
+Part33.Part1 = Part81
+Part33.Part0 = Handle
+
+Part34.Part1 = Part82
+Part34.Part0 = Handle
+
+Part35.Part1 = Part83
+Part35.Part0 = Handle
+
+Part36.Part1 = Part84
+Part36.Part0 = Handle
+
+Part37.Part1 = Part85
+Part37.Part0 = Handle
+
+Part38.Part1 = Part86
+Part38.Part0 = Handle
+
+Wedge17.Part1 = Wedge38
+Wedge17.Part0 = Handle
+
+Part39.Part1 = Part87
+Part39.Part0 = Handle
+
+eye.Part1 = nen
+eye.Part0 = Handle
+
+eye1.Part1 = f
+eye1.Part0 = Handle
+
+eye2.Part1 = nen1
+eye2.Part0 = Handle
+
+eye3.Part1 = nen2
+eye3.Part0 = Handle
+
+Part40.Part1 = Part88
+Part40.Part0 = Handle
+
+Wedge18.Part1 = Wedge39
+Wedge18.Part0 = Handle
+
+Wedge19.Part1 = Wedge40
+Wedge19.Part0 = Handle
+
+Wedge20.Part1 = Wedge41
+Wedge20.Part0 = Handle
+
+Part41.Part1 = Part89
+Part41.Part0 = Handle
+
+Part42.Part1 = Part90
+Part42.Part0 = Handle
+
+Part43.Part1 = Part91
+Part43.Part0 = Handle
+
+Part44.Part1 = Part92
+Part44.Part0 = Handle
+
+Part45.Part1 = Part93
+Part45.Part0 = Handle
+
+Part46.Part1 = Part76
+Part46.Part0 = Handle
+
+Part47.Part1 = Part50
+Part47.Part0 = Handle
+
+return bbc
